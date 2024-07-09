@@ -2,7 +2,7 @@ import { FC } from "react";
 
 const Header: FC = () => {
   return (
-    <header className="py-10">
+    <header className="py-10 sticky top-0 bg-white z-10 opacity-90">
       <ul className="flex justify-between">
         <a href="/home">
           <li className="text-black font-medium text-[22px] hover:underline hover:cursor-pointer">

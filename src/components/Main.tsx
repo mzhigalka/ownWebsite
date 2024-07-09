@@ -1,4 +1,5 @@
 import { FC } from "react";
+import CopyMail from "./CopyMail";
 
 const Main: FC = () => {
   return (
@@ -13,11 +14,12 @@ const Main: FC = () => {
           challenges in the dynamic design landscape.
         </p>
         <a
-          className="text-black font-medium text-[22px] hover:underline hover:cursor-pointer "
+          className="text-black font-medium text-[22px] hover:underline hover:cursor-pointer mb-[190px]"
           href="/about"
         >
           More about me
         </a>
+        <CopyMail />
       </div>
     </div>
   );
