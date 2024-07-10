@@ -7,6 +7,7 @@ module.exports = {
         black: "#111111",
         semigrey: "#333333",
         grey: "#666666",
+        footer: "#888888",
       },
       fontFamily: {
         sans: ["Geist", "sans-serif"],

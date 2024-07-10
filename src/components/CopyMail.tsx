@@ -19,7 +19,7 @@ const CopyMail: FC = () => {
         Get in touch <span className="text-grey">(Click to copy)</span>
       </p>
       <div
-        className="cursor-pointer text-[56px] font-semibold text-black"
+        className="cursor-pointer text-[56px] font-semibold text-black hover:scale-105 ease-out duration-300"
         onClick={handleEmailCopy}
       >
         {isEmailCopy ? "Email Copied" : "mzhigalka@gmail.com"}

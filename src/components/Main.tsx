@@ -21,6 +21,9 @@ const Main: FC = () => {
         </a>
         <CopyMail />
       </div>
+      <footer className="text-[14px] text-footer max-w-[760px] mx-auto py-[40px]">
+        © Matvey Zhigalka 2024
+      </footer>
     </div>
   );
 };
