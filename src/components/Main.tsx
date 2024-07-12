@@ -1,9 +1,16 @@
 import { FC } from "react";
+import { Link } from "react-router-dom";
+
 import CopyMail from "./CopyMail";
 
 const Main: FC = () => {
   return (
     <div>
+      <div className="py-32">
+        <h2 className="text-7xl font-semibold leading-[86px] text-black">
+          Product Design. InterFfaces. Systems. Strategy. UX. & More
+        </h2>
+      </div>
       {/* <div>Card</div> */}
       <div className="py-40 max-w-[760px] mx-auto ">
         <p className="max-w-3xl font-light leading-[35px] text-[22px] text-semigrey pb-[30px]  ">
@@ -13,17 +20,14 @@ const Main: FC = () => {
           comprehensive design projects. My passion lies in tackling diverse
           challenges in the dynamic design landscape.
         </p>
-        <a
+        <Link
           className="text-black font-medium text-[22px] hover:underline hover:cursor-pointer mb-[190px]"
-          href="/about"
+          to="/about"
         >
           More about me
-        </a>
+        </Link>
         <CopyMail />
       </div>
-      <footer className="text-[14px] text-footer max-w-[760px] mx-auto py-[40px]">
-        © Matvey Zhigalka 2024
-      </footer>
     </div>
   );
 };
