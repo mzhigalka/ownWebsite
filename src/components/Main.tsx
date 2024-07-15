@@ -7,9 +7,9 @@ const Main: FC = () => {
   return (
     <div>
       <div className="py-32">
-        <h2 className="text-7xl font-semibold leading-[86px] text-black">
+        <h1 className="text-7xl font-semibold leading-[86px] text-black">
           Product Design. InterFfaces. Systems. Strategy. UX. & More
-        </h2>
+        </h1>
       </div>
       {/* <div>Card</div> */}
       <div className="py-40 max-w-[760px] mx-auto ">
