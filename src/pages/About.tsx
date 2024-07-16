@@ -3,13 +3,13 @@ import { FC } from "react";
 const About: FC = () => {
   return (
     <div className="max-w-[760px] mx-auto">
-      <h1 className="mb-[40px] font-medium text-[44px] leading-[53px] text-black">
+      <h1 className="mb-[40px] mt-[60px] font-medium text-[44px] leading-[53px] text-black">
         Senior Product Designer specializing in user-centric innovation and
         product evolution.
       </h1>
       <div className="flex flex-col gap-[40px] font-light text-[22px] text-semigrey leading-[35px]">
         <p>
-          I'm Dejan, a seasoned Senior Product Designer with over 10 years of
+          I'm Matvey, a seasoned Senior Product Designer with over 10 years of
           experience in dynamic startup environments. Throughout my career, I've
           led end-to-end design projects, specializing in optimizing user
           experiences and driving product evolution. I thrive in
@@ -32,6 +32,14 @@ const About: FC = () => {
           boundaries and delivering innovative solutions that align with user
           expectations and achieve business goals.
         </p>
+      </div>
+      <div className="max-w-[1200px] mx-auto px-4 mb-[100px]">
+        <img src="" alt="photo-matvey" />
+      </div>
+      <div>
+        <h3 className="text-[32px] font-medium text-black mb-[20px]">
+          Work Experiences
+        </h3>
       </div>
     </div>
   );
