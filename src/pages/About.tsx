@@ -40,6 +40,37 @@ const About: FC = () => {
         <h3 className="text-[32px] font-medium text-black mb-[20px]">
           Work Experiences
         </h3>
+        <div className="mb-[80px]"></div>
+      </div>
+      <div>
+        <h3 className="text-[32px] font-medium text-black mb-[20px]">
+          Education
+        </h3>
+        <div className="mb-[80px] flex flex-col gap-y-[20px]">
+          <div>
+            <p className="text-[22px] text-black">Master’s degree</p>
+            <p className="text-[18px] text-semigrey font-light">
+              Communication and Media Studies Faculty of Electrical Engineering
+              and Computer Science
+            </p>
+            <p className="text-[16px] text-grey font-light">2011 - 2013</p>
+          </div>
+          <div>
+            <p className="text-[22px] text-black">Bachelor of Engineering</p>
+            <p className="text-[18px] text-semigrey font-light">
+              Communication and Media Studies Faculty of Electrical Engineering
+              and Computer Science
+            </p>
+            <p className="text-[16px] text-grey font-light">2008 – 2011</p>
+          </div>
+          <div>
+            <p className="text-[22px] text-black">High School</p>
+            <p className="text-[18px] text-semigrey font-light">
+              Digital Communication and Media/Multimedia at School For Design
+            </p>
+            <p className="text-[16px] text-grey font-light">2004 – 2008</p>
+          </div>
+        </div>
       </div>
     </div>
   );
