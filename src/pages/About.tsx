@@ -40,7 +40,40 @@ const About: FC = () => {
         <h3 className="text-[32px] font-medium text-black mb-[20px]">
           Work Experiences
         </h3>
-        <div className="mb-[80px]"></div>
+        <div className="mb-[80px]">
+          <div className="grid grid-cols-2">
+            <div className="mb-[20px]">
+              <p>Senior Product Designer</p>
+              <p>@hotel</p>
+              <p>2021 - 2024</p>
+            </div>
+            <div className="mb-[20px]">
+              <p>Senior Product Designer</p>
+              <p>@hotel</p>
+              <p>2021 - 2024</p>
+            </div>
+            <div className="mb-[20px]">
+              <p>Senior Product Designer</p>
+              <p>@hotel</p>
+              <p>2021 - 2024</p>
+            </div>
+            <div className="mb-[20px]">
+              <p>Senior Product Designer</p>
+              <p>@hotel</p>
+              <p>2021 - 2024</p>
+            </div>
+            <div>
+              <p>Senior Product Designer</p>
+              <p>@hotel</p>
+              <p>2021 - 2024</p>
+            </div>
+            <div>
+              <p>Senior Product Designer</p>
+              <p>@hotel</p>
+              <p>2021 - 2024</p>
+            </div>
+          </div>
+        </div>
       </div>
       <div>
         <h3 className="text-[32px] font-medium text-black mb-[20px]">
