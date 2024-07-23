@@ -16,22 +16,8 @@ const About: FC = () => {
           problem-solving, prioritizing user-centric needs, and delivering
           high-quality designs that elevate user satisfaction.
         </p>
-        <p>
-          In previous roles, I've spearheaded strategic initiatives that
-          significantly enhanced product metrics and user engagement. I excel in
-          guiding comprehensive design projects, from strategic planning and
-          user research to UI/UX design and seamless collaboration across teams.
-          With a strong foundation in methodical design thinking and usability
-          principles, I leverage diverse design tools and methodologies to
-          achieve impactful outcomes.
-        </p>
-        <p>
-          My expertise lies in developing intuitive product user interfaces and
-          fostering collaborative environments that integrate design,
-          engineering, and product management. I am dedicated to pushing
-          boundaries and delivering innovative solutions that align with user
-          expectations and achieve business goals.
-        </p>
+        <p>...</p>
+        <p>...</p>
       </div>
       <div className="max-w-[1200px] mx-auto px-4 mb-[100px]">
         <img src="" alt="photo-matvey" />
