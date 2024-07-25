@@ -91,6 +91,21 @@ const About: FC = () => {
           </div>
         </div>
       </div>
+      <div>
+        <h3 className="text-[32px] font-medium text-black mb-[20px]">
+          Disciplines
+        </h3>
+        <div className="grid grid-cols-2 text-[22px] text-semigrey font-light leading-[35px]">
+          <p>End-to-end Product Design</p>
+          <p>User Experience Design</p>
+          <p>Motion Design</p>
+          <p>Consulting</p>
+          <p>Interface Design</p>
+          <p>Design Systems</p>
+          <p>Interaction Design</p>
+          <p>Front-End</p>
+        </div>
+      </div>
     </div>
   );
 };
