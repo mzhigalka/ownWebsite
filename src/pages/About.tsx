@@ -92,10 +92,10 @@ const About: FC = () => {
         </div>
       </div>
       <div>
-        <h3 className="text-[32px] font-medium text-black mb-[20px]">
+        <h3 className="text-[32px] font-medium text-black mb-[20px] ">
           Disciplines
         </h3>
-        <div className="grid grid-cols-2 text-[22px] text-semigrey font-light leading-[35px]">
+        <div className="grid grid-cols-2 text-[22px] text-semigrey font-light leading-[35px] mb-[80px]">
           <p>End-to-end Product Design</p>
           <p>User Experience Design</p>
           <p>Motion Design</p>
@@ -104,6 +104,31 @@ const About: FC = () => {
           <p>Design Systems</p>
           <p>Interaction Design</p>
           <p>Front-End</p>
+        </div>
+      </div>
+      <div>
+        <h3 className="text-[32px] font-medium text-black mb-[20px]">
+          Contacts
+        </h3>
+        <div className=" text-[22px] text-semigrey font-light leading-[35px]">
+          <p className="mb-[40px]">
+            Feel free to reach out for projects, collaborations, or just to say
+            hello! Currently seeking new opportunities.
+          </p>
+          <div className="flex flex-col font-normal text-black mb-[160px]">
+            <a className="hover:underline" href="mailto:mzhigalka@gmail.com">
+              mzhigalka@gmail.com
+            </a>
+            <a
+              className="hover:underline"
+              href="https://www.linkedin.com/in/%D0%BC%D0%B0%D1%82%D0%B2%D1%96%D0%B9-%D0%B6%D0%B8%D0%B3%D0%B0%D0%BB%D0%BA%D0%B0-83b847299/"
+            >
+              Linkedin
+            </a>
+            <a className="hover:underline" href="https://github.com/mzhigalka">
+              GitHub
+            </a>
+          </div>
         </div>
       </div>
     </div>
