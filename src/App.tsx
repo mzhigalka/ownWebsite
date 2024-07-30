@@ -15,9 +15,11 @@ function App() {
             <Route path="/about" element={<About />} />
           </Routes>
         </div>
-        <footer className="text-[14px] text-footer max-w-[760px] mx-auto py-[40px]">
-          © Matvey Zhigalka 2024
-        </footer>
+        <div className="px-[16px]">
+          <footer className="text-[14px] text-footer max-w-[760px] mx-auto py-[40px]">
+            © Matvey Zhigalka 2024
+          </footer>
+        </div>
       </div>
     </Router>
   );
