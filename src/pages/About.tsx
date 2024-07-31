@@ -128,6 +128,9 @@ const About: FC = () => {
             <a className="hover:underline" href="https://github.com/mzhigalka">
               GitHub
             </a>
+            <a className="hover:underline" href="https://gitlab.com/mzhigalka">
+              GitLab
+            </a>
           </div>
         </div>
       </div>
