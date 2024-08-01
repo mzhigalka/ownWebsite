@@ -67,43 +67,105 @@ const About: FC = () => {
         </h3>
         <div className="mb-[80px] flex flex-col gap-y-[20px]">
           <div>
-            <p className="text-[22px] text-black">Master’s degree</p>
-            <p className="text-[18px] text-semigrey font-light">
-              Communication and Media Studies Faculty of Electrical Engineering
-              and Computer Science
+            <p className="text-[22px] text-black">
+              Kharkiv National University of Radio Electronics
             </p>
-            <p className="text-[16px] text-grey font-light">2011 - 2013</p>
+            <p className="text-[18px] text-semigrey font-light">
+              Faculty of computer engineering and management, specialty -
+              computer engineering
+            </p>
+            <p className="text-[16px] text-grey font-light">2021 - 2025</p>
           </div>
           <div>
-            <p className="text-[22px] text-black">Bachelor of Engineering</p>
-            <p className="text-[18px] text-semigrey font-light">
-              Communication and Media Studies Faculty of Electrical Engineering
-              and Computer Science
+            <p className="text-[22px] text-black">
+              Course Udemy “Frontend developer in HTML, CSS and JavaScript”
             </p>
-            <p className="text-[16px] text-grey font-light">2008 – 2011</p>
+            <a
+              href="https://www.udemy.com/certificate/UC-bd8b854c-edad-4471-ad4c-0dd3a69bf13e/"
+              className="text-[18px] hover:underline cursor-pointer text-semigrey font-light"
+              target="_blank"
+            >
+              Certificate
+            </a>
+            <p className="text-[16px] text-grey font-light">
+              Sept. 2022 - Mar. 2024
+            </p>
           </div>
           <div>
-            <p className="text-[22px] text-black">High School</p>
-            <p className="text-[18px] text-semigrey font-light">
-              Digital Communication and Media/Multimedia at School For Design
+            <p className="text-[22px] text-black">Course Meta “React Basics”</p>
+            <a
+              href="https://www.coursera.org/account/accomplishments/verify/SNQTTXQLJEUN?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course"
+              className="text-[18px] hover:underline cursor-pointer text-semigrey font-light"
+              target="_blank"
+            >
+              Certificate
+            </a>
+            <p className="text-[16px] text-grey font-light">
+              Sept. 2023 - Oct. 2023
             </p>
-            <p className="text-[16px] text-grey font-light">2004 – 2008</p>
+          </div>
+          <div>
+            <p className="text-[22px] text-black">
+              Course Meta “React Advanced”
+            </p>
+            <a
+              href="https://www.coursera.org/account/accomplishments/verify/H4UDCCXCXAXR?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
+              className="text-[18px] hover:underline cursor-pointer text-semigrey font-light"
+              target="_blank"
+            >
+              Certificate
+            </a>
+            <p className="text-[16px] text-grey font-light">
+              Nov. 2023 - Dec. 2023
+            </p>
+          </div>
+          <div>
+            <p className="text-[22px] text-black">
+              Course UC San Diego "Object Oriented Programming in Java"
+            </p>
+            <a
+              href="https://coursera.org/share/4be8a9d94f3b6a6c55956ef454a5ef27"
+              className="text-[18px] hover:underline cursor-pointer text-semigrey font-light"
+              target="_blank"
+            >
+              Certificate
+            </a>
+            <p className="text-[16px] text-grey font-light">
+              Jan. 2023 - Nov. 2023
+            </p>
+          </div>
+          <div>
+            <p className="text-[22px] text-black">
+              Course LearnQuest "Java Class Library"
+            </p>
+            <a
+              href="https://coursera.org/share/a686f1e75b2cf59b8ac36c287d81b269"
+              className="text-[18px] hover:underline cursor-pointer text-semigrey font-light"
+              target="_blank"
+            >
+              Certificate
+            </a>
+            <p className="text-[16px] text-grey font-light">
+              Feb. 2023 - Feb. 2023
+            </p>
           </div>
         </div>
       </div>
       <div>
         <h3 className="text-[32px] font-medium text-black mb-[20px] ">
-          Disciplines
+          Skills
         </h3>
         <div className="grid grid-cols-2 text-[22px] text-semigrey font-light leading-[35px] mb-[80px]">
-          <p>End-to-end Product Design</p>
-          <p>User Experience Design</p>
-          <p>Motion Design</p>
-          <p>Consulting</p>
-          <p>Interface Design</p>
-          <p>Design Systems</p>
-          <p>Interaction Design</p>
-          <p>Front-End</p>
+          <p>HTML</p>
+          <p>CSS / SCSS / SASS / LESS</p>
+          <p>React JS</p>
+          <p>Git / GitHub / GitLab</p>
+          <p>JavaScript</p>
+          <p>Tailwind CSS</p>
+          <p>TypeScript</p>
+          <p>Figma</p>
+          <p>Redux Toolkit</p>
+          <p>Vite</p>
         </div>
       </div>
       <div>
@@ -122,13 +184,22 @@ const About: FC = () => {
             <a
               className="hover:underline"
               href="https://www.linkedin.com/in/%D0%BC%D0%B0%D1%82%D0%B2%D1%96%D0%B9-%D0%B6%D0%B8%D0%B3%D0%B0%D0%BB%D0%BA%D0%B0-83b847299/"
+              target="_blank"
             >
               Linkedin
             </a>
-            <a className="hover:underline" href="https://github.com/mzhigalka">
+            <a
+              className="hover:underline"
+              href="https://github.com/mzhigalka"
+              target="_blank"
+            >
               GitHub
             </a>
-            <a className="hover:underline" href="https://gitlab.com/mzhigalka">
+            <a
+              className="hover:underline"
+              href="https://gitlab.com/mzhigalka"
+              target="_blank"
+            >
               GitLab
             </a>
           </div>
