@@ -1,6 +1,7 @@
 import { FC } from "react";
 import { Link } from "react-router-dom";
 
+import Card from "./Card";
 import CopyMail from "./CopyMail";
 
 const Main: FC = () => {
@@ -11,7 +12,7 @@ const Main: FC = () => {
           Product Design. InterFfaces. Systems. Strategy. UX. & More
         </h1>
       </div>
-      {/* <div>Card</div> */}
+      <Card></Card>
       <div className="py-40 max-w-[760px] mx-auto ">
         <p className="max-w-3xl font-light leading-[35px] text-[22px] text-semigrey pb-[30px]  ">
           I’m Matvey, a product designer based in Ukraine with over 12 years of
