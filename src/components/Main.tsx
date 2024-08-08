@@ -7,12 +7,12 @@ import CopyMail from "./CopyMail";
 const Main: FC = () => {
   return (
     <div>
-      <div className="py-32">
+      <div className="pt-32 pb-36">
         <h1 className="text-7xl font-semibold leading-[86px] text-black">
           Product Design. InterFfaces. Systems. Strategy. UX. & More
         </h1>
       </div>
-      <Card></Card>
+      <Card />
       <div className="py-40 max-w-[760px] mx-auto ">
         <p className="max-w-3xl font-light leading-[35px] text-[22px] text-semigrey pb-[30px]  ">
           I’m Matvey, a product designer based in Ukraine with over 12 years of

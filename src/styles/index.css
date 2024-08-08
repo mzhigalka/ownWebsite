@@ -3,3 +3,47 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.slide {
+  -webkit-animation: slide .6s cubic-bezier(0.2, 0.6, 0.2, 1);
+  -moz-animation: slide .6s cubic-bezier(0.2, 0.6, 0.2, 1);
+  animation: slide .6s cubic-bezier(0.2, 0.6, 0.2, 1);
+  -webkit-animation-fill-mode: backwards;
+  -moz-animation-fill-mode: backwards;
+  animation-fill-mode: backwards;
+}
+
+.delay01 {
+  -webkit-animation-delay: .4s;
+  animation-delay: .4s;
+}
+
+.delay02 {
+  -webkit-animation-delay: .8s;
+  animation-delay: .8s;
+}
+
+.delay03 {
+  -webkit-animation-delay: .9s;
+  animation-delay: .9s;
+}
+
+.work-item__image {
+  transition: all .8s cubic-bezier(0.2, 0.6, 0.2, 1);
+}
+
+.work-item__image:hover {
+  transform: scale(.95);
+  transition: all .8s cubic-bezier(0.2, 0.6, 0.2, 1);
+  cursor: pointer;
+}
+
+.work-item img {
+  transition: all .8s cubic-bezier(0.2, 0.6, 0.2, 1);
+}
+
+.work-item:hover img {
+  transform: scale(1.15);
+  transition: all .8s cubic-bezier(0.2, 0.6, 0.2, 1);
+  cursor: pointer;
+}
