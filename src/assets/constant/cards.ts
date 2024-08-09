@@ -8,35 +8,35 @@ export const servicesData = [
   {
     id: 1,
     image: cardImage1,
-    title: "Браслеты Michael Kors",
+    title: "Pizza delivery",
     text: "СМОТРЕТЬ ВСЕ",
     link: '/work/pizza'
   },
   {
     id: 2,
     image: cardImage2,
-    title: "Сумки Michael Kors",
+    title: "DlNure booking",
     text: "СМОТРЕТЬ ВСЕ",
     link: '/work/dlnure'
   },
   {
     id: 3,
     image: cardImage4,
-    title: "Рюкзаки Michael Kors",
+    title: "Sneakers",
     text: "СМОТРЕТЬ ВСЕ",
     link: '/work/sneakers'
   },
   {
     id: 4,
     image: cardImage5,
-    title: "Кошельки Michael Kors",
+    title: "AirPods lending",
     text: "СМОТРЕТЬ ВСЕ",
     link: '/work/airpods'
   },
   {
     id: 5,
     image: cardImage6,
-    title: "Кошельки Michael Kors",
+    title: "Random password",
     text: "СМОТРЕТЬ ВСЕ",
     link: '/work/password'
   },
