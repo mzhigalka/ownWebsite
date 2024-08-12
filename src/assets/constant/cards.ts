@@ -3,6 +3,7 @@ import cardImage2 from '../images/2.2.png'
 import cardImage4 from '../images/4.4.png'
 import cardImage5 from '../images/5.5.png'
 import cardImage6 from '../images/6.6.png'
+import cardImage7 from '../images/9.9.png'
 
 export const servicesData = [
   {
@@ -39,5 +40,19 @@ export const servicesData = [
     title: "Random password",
     text: "СМОТРЕТЬ ВСЕ",
     link: '/work/password'
+  },
+  {
+    id: 6,
+    image: cardImage7,
+    title: "Watch Store",
+    text: "СМОТРЕТЬ ВСЕ",
+    link: '/work/watch-store'
+  },
+  {
+    id: 7,
+    image: cardImage7,
+    title: "Watch Store",
+    text: "СМОТРЕТЬ ВСЕ",
+    link: '/work/watch-store'
   },
 ];

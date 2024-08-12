@@ -1,6 +1,13 @@
-import { FC } from "react";
+import React, { FC } from "react";
 
 const About: FC = () => {
+  React.useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
+
   return (
     <div className="max-w-[760px] mx-auto">
       <h1 className="mb-[40px] mt-[60px] font-medium text-[44px] leading-[53px] text-black">
