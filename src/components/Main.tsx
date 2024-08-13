@@ -1,4 +1,4 @@
-import { FC } from "react";
+import React, { FC } from "react";
 import { Link } from "react-router-dom";
 
 import Card from "./Card";
@@ -6,7 +6,7 @@ import CopyMail from "./CopyMail";
 
 const Main: FC = () => {
   return (
-    <div>
+    <main>
       <div className="pt-32 pb-36">
         <h1 className="text-7xl font-semibold leading-[86px] text-black">
           Product Design. InterFfaces. Systems. Strategy. UX. & More
@@ -29,7 +29,7 @@ const Main: FC = () => {
         </Link>
         <CopyMail />
       </div>
-    </div>
+    </main>
   );
 };
 

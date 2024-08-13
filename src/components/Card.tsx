@@ -9,7 +9,7 @@ const Card: FC = () => {
         <Link
           key={items.id}
           to={items.link}
-          className=" work-item mb-[100px] text-center box-border inline-block w-[calc(50%-60px)] even:relative even:top-[300px]"
+          className="work-item mb-[100px] text-center box-border inline-block w-[calc(50%-60px)] even:relative even:top-[300px]"
         >
           <div className="work-item__image h-[640px] overflow-hidden rounded-3xl">
             <img
@@ -19,7 +19,7 @@ const Card: FC = () => {
             />
           </div>
           <div className="text-center mt-6">
-            <h3 className="text-black font-medium text-xl block leading-relaxed">
+            <h3 className="text-black font-medium text-[22px] block leading-relaxed">
               {items.title}
             </h3>
             <p className="text-grey font-light text-lg">{items.text}</p>

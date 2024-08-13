@@ -10,35 +10,35 @@ export const servicesData = [
     id: 1,
     image: cardImage1,
     title: "Pizza delivery",
-    text: "СМОТРЕТЬ ВСЕ",
+    text: "Delivery of your favorite pizza",
     link: '/work/pizza'
   },
   {
     id: 2,
     image: cardImage2,
     title: "DlNure booking",
-    text: "СМОТРЕТЬ ВСЕ",
+    text: "Travel booking platform",
     link: '/work/dlnure'
   },
   {
     id: 3,
     image: cardImage4,
     title: "Sneakers",
-    text: "СМОТРЕТЬ ВСЕ",
+    text: "Sneakers for your style",
     link: '/work/sneakers'
   },
   {
     id: 4,
     image: cardImage5,
     title: "AirPods lending",
-    text: "СМОТРЕТЬ ВСЕ",
+    text: "Landing page AirPods Max",
     link: '/work/airpods'
   },
   {
     id: 5,
     image: cardImage6,
     title: "Random password",
-    text: "СМОТРЕТЬ ВСЕ",
+    text: "Platform for selecting a random password",
     link: '/work/password'
   },
   {
@@ -52,7 +52,7 @@ export const servicesData = [
     id: 7,
     image: cardImage7,
     title: "Watch Store",
-    text: "СМОТРЕТЬ ВСЕ",
+    text: "Luxury watch store",
     link: '/work/watch-store'
   },
 ];

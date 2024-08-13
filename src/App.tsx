@@ -2,6 +2,8 @@ import Header from "./components/Header";
 import Main from "./components/Main";
 import About from "./pages/About";
 
+import Work from "./pages/Work";
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -13,13 +15,14 @@ function App() {
           <Routes>
             <Route path="/" element={<Main />} />
             <Route path="/about" element={<About />} />
+            <Route path="/work/:id" element={<Work />} />
           </Routes>
         </div>
-        <div className="px-[16px]">
-          <footer className="text-[14px] text-footer max-w-[760px] mx-auto py-[40px]">
+        <footer className="px-[16px]">
+          <div className="text-[14px] text-footer max-w-[760px] mx-auto py-[40px]">
             © Matvey Zhigalka 2024
-          </footer>
-        </div>
+          </div>
+        </footer>
       </div>
     </Router>
   );
