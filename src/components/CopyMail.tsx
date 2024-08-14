@@ -15,11 +15,11 @@ const CopyMail: FC = () => {
 
   return (
     <div className="mt-[190px]">
-      <p className="text-[22px] text-semigrey  font-light">
+      <p className="text-[22px] text-semigrey max-md:text-lg font-light">
         Get in touch <span className="text-grey">(Click to copy)</span>
       </p>
       <div
-        className="cursor-pointer text-[56px] font-semibold text-black hover:scale-105 ease-out duration-300"
+        className="cursor-pointer text-[56px] font-semibold text-black hover:scale-105 ease-out duration-300 max-md:text-2xl"
         onClick={handleEmailCopy}
       >
         {isEmailCopy ? "Email Copied" : "mzhigalka@gmail.com"}

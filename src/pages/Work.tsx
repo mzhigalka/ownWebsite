@@ -1,20 +1,34 @@
-import React from "react";
 import { Link, useParams } from "react-router-dom";
-
-import { workComponents } from "../assets/constant/workComponents";
+import { projectsComponents } from "../assets/constant/projects";
 
 const Work = () => {
   const { id } = useParams<{ id: string }>();
 
+  const project = projectsComponents.find((project) => project.id === id);
+
+  if (!project) {
+    return (
+      <h1 className="text-5xl font-semibold text-center my-36">
+        Project not found
+      </h1>
+    );
+  }
+
   return (
     <main>
-      <section className="py-20 flex flex-col">
-        <div>
-          {workComponents
-            .filter((item) => item.id === id)
-            .map((item) => (
-              <div key={item.id}>{item.component}</div>
-            ))}
+      <section className="py-20 flex flex-col items-center">
+        <div className="">
+          <div className="max-w-[680px] ">
+            <h1 className="text-6xl font-semibold text-black">
+              {project.title}
+            </h1>
+            <p className="mt-[60px] mb-[40px] text-black font-normal text-[24px]">
+              {project.text}
+            </p>
+            <div className="text-xl text-semigrey font-light">
+              <p>{project.description}</p>
+            </div>
+          </div>
         </div>
         <div className="text-center pt-20">
           <Link

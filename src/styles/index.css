@@ -75,10 +75,33 @@
 
 .work-item img {
   transition: all .8s cubic-bezier(0.2, 0.6, 0.2, 1);
+
 }
 
 .work-item:hover img {
   transform: scale(1.15);
   transition: all .8s cubic-bezier(0.2, 0.6, 0.2, 1);
   cursor: pointer;
+}
+
+@media (min-width:768px) {
+  .work-item:nth-child(2n-2) {
+    position: relative;
+    top: 300px;
+  }
+}
+
+@media (max-width:768px) {
+  .work-item {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .work-item:nth-child(2n-2) {
+    top: 0;
+  }
+
+  .work-item__image {
+    height: 480px;
+  }
 }

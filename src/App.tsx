@@ -10,7 +10,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <div className="max-w-[1200px] mx-auto px-4">
+        <div className="max-w-[1200px] mx-auto px-4 max-md:px-5">
           <Header />
           <Routes>
             <Route path="/" element={<Main />} />
@@ -18,7 +18,7 @@ function App() {
             <Route path="/work/:id" element={<Work />} />
           </Routes>
         </div>
-        <footer className="px-[16px]">
+        <footer className="px-[16px] ">
           <div className="text-[14px] text-footer max-w-[760px] mx-auto py-[40px]">
             © Matvey Zhigalka 2024
           </div>

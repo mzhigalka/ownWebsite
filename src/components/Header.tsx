@@ -6,16 +6,16 @@ const Header: FC = () => {
   const isHomePage = location.pathname === "/";
 
   return (
-    <header className="py-10 sticky top-0 bg-white z-10 opacity-90">
+    <header className="py-10 sticky top-0 bg-white z-10 opacity-90 max-md:py-5">
       <nav>
         <ul className="flex justify-between">
           <Link to="/">
-            <li className="text-black font-medium text-[22px] hover:underline hover:cursor-pointer">
+            <li className="text-black font-medium text-[22px] hover:underline hover:cursor-pointer max-md:text-lg">
               Matvey Zhigalka
             </li>
           </Link>
           <Link to={isHomePage ? "/about" : "/"}>
-            <li className="text-black font-medium text-[22px] hover:underline hover:cursor-pointer">
+            <li className="text-black font-medium text-[22px] hover:underline hover:cursor-pointer max-md:text-lg">
               {isHomePage ? "About" : "Work"}
             </li>
           </Link>
