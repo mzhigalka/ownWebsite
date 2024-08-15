@@ -9,7 +9,7 @@ const Card: FC = () => {
     if (!cards.length) {
       setCards(servicesData);
     }
-  }, [cards]);
+  }, []);
 
   return (
     <div className="slide delay02 flex flex-wrap justify-between max-w-[1200px] mx-auto">
