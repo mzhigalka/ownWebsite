@@ -1,9 +1,9 @@
-import cardImage1 from '../images/1.1.png'
-import cardImage2 from '../images/2.2.png'
-import cardImage4 from '../images/4.4.png'
-import cardImage5 from '../images/5.5.png'
-import cardImage6 from '../images/6.6.png'
-import cardImage7 from '../images/9.9.png'
+import cardImage1 from '../images/1.1.jpg'
+import cardImage2 from '../images/2.2.jpg'
+import cardImage4 from '../images/4.4.jpg'
+import cardImage5 from '../images/5.5.jpg'
+import cardImage6 from '../images/6.6.jpg'
+import cardImage7 from '../images/9.9.jpg'
 
 export const servicesData = [
   {
