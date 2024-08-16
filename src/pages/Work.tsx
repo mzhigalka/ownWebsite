@@ -18,7 +18,7 @@ const Work = () => {
     <main>
       <section className="py-20 flex flex-col items-center">
         <div className="">
-          <div className="max-w-[680px] ">
+          <div className="max-w-[680px] mb-20">
             <h1 className="text-6xl font-semibold text-black">
               {project.title}
             </h1>
@@ -29,6 +29,9 @@ const Work = () => {
               <p>{project.description}</p>
             </div>
           </div>
+        </div>
+        <div className="flex flex-col gap-5">
+          <img src={project.img} alt={project.title} />
         </div>
         <div className="text-center pt-20">
           <Link

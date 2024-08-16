@@ -18,15 +18,32 @@ const About: FC = () => {
         </h1>
         <div className="flex flex-col gap-[40px] font-light text-[22px] text-semigrey leading-[35px] max-md:text-lg">
           <p>
-            I'm Matvey, a seasoned Senior Product Designer with over 10 years of
-            experience in dynamic startup environments. Throughout my career,
-            I've led end-to-end design projects, specializing in optimizing user
-            experiences and driving product evolution. I thrive in
-            problem-solving, prioritizing user-centric needs, and delivering
-            high-quality designs that elevate user satisfaction.
+            I'm Matvey, a Front-End Developer with a deep-rooted passion for web
+            development that began in high school. My journey started in 10th
+            grade, where I first explored front-end development through HTML and
+            CSS. By 11th grade, I had a solid grasp of these technologies and
+            decided to pursue Computer Engineering at Kharkiv National
+            University of Radio Electronics.
           </p>
-          <p>...</p>
-          <p>...</p>
+          <p>
+            During my university studies, I delved into key programming
+            principles, including OOP and algorithms, and took various courses
+            that expanded my knowledge of front-end development. I became
+            proficient in JavaScript and familiarized myself with Git and
+            version control systems, ultimately choosing React JS for further
+            specialization. Currently, I am enhancing my skills in TypeScript
+            and Redux Toolkit.
+          </p>
+          <p>
+            I've gained hands-on experience through an internship at HARBOUR
+            TECH ABI CRM LTD, working on a CRM system project tailored for the
+            Spanish market. Additionally, I am employed part-time at Artic Web,
+            where I contribute to the development of diverse web applications
+            for various clients. With over 6 months of commercial experience and
+            approximately 4 years of non-commercial work, I am committed to
+            creating innovative and effective web solutions that meet both user
+            needs and business objectives.
+          </p>
         </div>
       </div>
 

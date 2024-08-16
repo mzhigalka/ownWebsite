@@ -4,6 +4,7 @@ import cardImage4 from '../images/4.4.jpg'
 import cardImage5 from '../images/5.5.jpg'
 import cardImage6 from '../images/6.6.jpg'
 import cardImage7 from '../images/9.9.jpg'
+import cardImage8 from '../images/10.10.jpg'
 
 export const servicesData = [
   {
@@ -43,10 +44,10 @@ export const servicesData = [
   },
   {
     id: 6,
-    image: cardImage7,
-    title: "Watch Store",
-    text: "СМОТРЕТЬ ВСЕ",
-    link: '/work/watch-store'
+    image: cardImage8,
+    title: "Abi CRM System",
+    text: "Customer Relationship Management",
+    link: '/work/abi-crm'
   },
   {
     id: 7,
