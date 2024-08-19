@@ -1,14 +1,7 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import myPhoto from "../assets/images/my-photo1.jpg";
 
 const About: FC = () => {
-  React.useEffect(() => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  }, []);
-
   return (
     <>
       <div className="max-w-[760px] mx-auto">
