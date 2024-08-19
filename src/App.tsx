@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import React, { Suspense } from "react";
 
 import LoadingScreen from "./components/LoadingScreen";
+import ScrollToTop from "./components/ScrollToTop";
 import Header from "./components/Header";
 
 const Main = React.lazy(() => import("./components/Main"));
@@ -11,6 +12,7 @@ const Work = React.lazy(() => import("./pages/Work"));
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="App">
         <div className="max-w-[1200px] mx-auto px-4 max-md:px-5">
           <Header />
