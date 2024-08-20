@@ -6,7 +6,7 @@ const Header: FC = () => {
   const isHomePage = location.pathname === "/";
 
   return (
-    <header className="py-10 sticky top-0 bg-white z-10 opacity-90 max-md:py-5">
+    <header className="py-8 sticky top-0 bg-white z-10 opacity-90 max-md:py-5">
       <nav>
         <ul className="flex justify-between">
           <Link to="/">
