@@ -84,6 +84,35 @@
   cursor: pointer;
 }
 
+/*  */
+
+.video-desktop {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 70px 75px;
+  background: #DEDEDE;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+.video-desktop video {
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.video-desktop__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  max-height: 70vh;
+}
+
+/*  */
+
 @media (min-width:768px) {
   .work-item:nth-child(2n-2) {
     position: relative;

@@ -34,6 +34,13 @@ const Work = () => {
           {project.images.map((img, index) => (
             <img key={index} src={img} alt={`${project.title} ${index + 1}`} />
           ))}
+          <div className="video-desktop max-md:p-6 ">
+            <div className="video-desktop__inner">
+              <video preload="none" autoPlay loop muted playsInline>
+                <source src={project.video} type="video/mp4" />
+              </video>
+            </div>
+          </div>
         </div>
         <div className="text-center pt-20">
           <Link
