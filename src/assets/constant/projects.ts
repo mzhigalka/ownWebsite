@@ -86,7 +86,7 @@ export const projectsComponents = [
     description: '',
     images: [watch1, watch2, watch3],
     video: watch4,
-    link: "",
+    link: "https://watchstore-tawny.vercel.app/",
   },
   {
     id: "abi-crm",
