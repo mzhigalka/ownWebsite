@@ -25,9 +25,16 @@ const Work = () => {
             <p className="mt-[60px] mb-[40px] text-black font-normal text-[24px]">
               {project.text}
             </p>
-            <div className="text-xl text-semigrey font-light">
+            <div className="text-xl text-semigrey font-light mb-10">
               <p>{project.description}</p>
             </div>
+            <a
+              className="font-normal text-black text-[22px] hover:underline"
+              href={project.link}
+              target="__blank"
+            >
+              {project.title} Website
+            </a>
           </div>
         </div>
         <div className="flex flex-col gap-5">

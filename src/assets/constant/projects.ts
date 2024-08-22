@@ -41,6 +41,7 @@ export const projectsComponents = [
     description: '',
     images: [pizza1, pizza2, pizza3],
     video: pizza4,
+    link: "https://react-pizza-six-mocha.vercel.app/",
   },
   {
     id: "dlnure",
@@ -49,6 +50,7 @@ export const projectsComponents = [
     description: '',
     images: [dlnure1, dlnure2, dlnure3],
     video: dlnure4,
+    link: "https://hotel-industry.vercel.app/",
   },
   {
     id: "airpods",
@@ -57,6 +59,7 @@ export const projectsComponents = [
     description: '',
     images: [airpods1, airpods2, airpods3],
     video: airpods4,
+    link: "https://air-pods-lending.vercel.app/",
   },
   {
     id: "password",
@@ -65,6 +68,7 @@ export const projectsComponents = [
     description: '',
     images: [password1, password2, password3],
     video: password4,
+    link: "https://password-generator-three-bice.vercel.app/",
   },
   {
     id: "sneakers",
@@ -73,6 +77,7 @@ export const projectsComponents = [
     description: '',
     images: [sneakers1, sneakers2, sneakers3],
     video: sneakers4,
+    link: "https://react-sneakers-shop-v2.vercel.app/",
   },
   {
     id: "watch-store",
@@ -81,6 +86,7 @@ export const projectsComponents = [
     description: '',
     images: [watch1, watch2, watch3],
     video: watch4,
+    link: "",
   },
   {
     id: "abi-crm",
@@ -89,5 +95,6 @@ export const projectsComponents = [
     description: '',
     images: [crm1, crm2, crm3],
     video: crm4,
+    link: "",
   },
 ];
