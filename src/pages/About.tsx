@@ -1,5 +1,6 @@
 import { FC } from "react";
 import myPhoto from "../assets/images/my-photo1.jpg";
+import { workExperiences } from "../assets/constant/workExperiences";
 
 const About: FC = () => {
   return (
@@ -9,7 +10,7 @@ const About: FC = () => {
           Frontend Developer specializing in the creation of high-quality
           websites and innovative user interfaces.
         </h1>
-        <div className="flex flex-col gap-[40px] font-light text-[22px] text-semigrey leading-[35px] max-md:text-lg">
+        <div className="flex flex-col gap-[40px] font-light text-[22px] text-semigrey leading-[35px] max-md:text-lg max-md:font-normal">
           <p>
             I'm Matvey, a Front-End Developer with a deep-rooted passion for web
             development that began in high school. My journey started in 10th
@@ -54,37 +55,23 @@ const About: FC = () => {
             Work Experiences
           </h3>
           <div className="mb-[80px]">
-            <div className="grid grid-cols-2 max-md:grid-cols-1">
-              <div className="mb-[20px]">
-                <p>Senior Product Designer</p>
-                <p>@hotel</p>
-                <p>2021 - 2024</p>
-              </div>
-              <div className="mb-[20px]">
-                <p>Senior Product Designer</p>
-                <p>@hotel</p>
-                <p>2021 - 2024</p>
-              </div>
-              <div className="mb-[20px]">
-                <p>Senior Product Designer</p>
-                <p>@hotel</p>
-                <p>2021 - 2024</p>
-              </div>
-              <div className="mb-[20px]">
-                <p>Senior Product Designer</p>
-                <p>@hotel</p>
-                <p>2021 - 2024</p>
-              </div>
-              <div>
-                <p>Senior Product Designer</p>
-                <p>@hotel</p>
-                <p>2021 - 2024</p>
-              </div>
-              <div>
-                <p>Senior Product Designer</p>
-                <p>@hotel</p>
-                <p>2021 - 2024</p>
-              </div>
+            <div className="grid grid-cols-2 max-md:grid-cols-1 gap-10">
+              {workExperiences.map((item) => (
+                <div key={item.id} className="mb-[20px] ">
+                  <p className="text-[22px] text-black max-md:font-medium">
+                    {item.position}
+                  </p>
+                  <p className="text-lg text-semigrey font-light max-md:font-normal">
+                    {item.company}
+                  </p>
+                  <p className="text-base text-grey font-light mb-3 max-md:font-normal">
+                    {item.date}
+                  </p>
+                  <p className="text-base text-semigrey font-light max-md:font-normal">
+                    My Role: {item.role}
+                  </p>
+                </div>
+              ))}
             </div>
           </div>
         </div>
