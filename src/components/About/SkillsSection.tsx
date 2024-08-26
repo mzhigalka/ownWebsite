@@ -1,10 +1,15 @@
+import { TFunction } from "i18next";
 import { FC } from "react";
 
-const SkillsSection: FC = () => {
+interface SkillsSectionProps {
+  t: TFunction;
+}
+
+const SkillsSection: FC<SkillsSectionProps> = ({ t }) => {
   return (
     <>
       <h3 className="text-[32px] font-medium text-black mb-[20px] max-md:text-2xl max-md:font-semibold">
-        Skills
+        {t("about.skills.title")}
       </h3>
       <div className="grid grid-cols-2 text-[22px] text-semigrey font-light leading-[35px] mb-[80px] max-md:grid-cols-1 max-md:text-lg max-md:font-normal">
         <p>HTML</p>

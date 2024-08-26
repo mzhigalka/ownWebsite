@@ -1,0 +1,59 @@
+{
+  "header": {
+    "me": "Matvey Zhigalka",
+    "about": "About",
+    "work": "Work"
+  },
+  "main": {
+    "title": "Transforming Designs into Code. React & TypeScript Developer.",
+    "about": "I’m Matvey, a Front-End Developer specializing in React and TypeScript, based in Ukraine. With over 4 years of non-commercial experience and more than 6 months of commercial work, I excel at creating dynamic and engaging web experiences. My expertise includes crafting intuitive user interfaces, optimizing performance, and delivering high-quality code.",
+    "touch": "Get in touch",
+    "click": "(Click to copy)",
+    "mail": "Email Copied",
+    "more": "More about me",
+    "projects": {
+      "pizza": "Delivery of your favorite pizza",
+      "dlnure": "Travel booking platform",
+      "sneakers": "Sneakers for your style",
+      "airpods": "Landing page AirPods Max",
+      "password": "Platform for selecting a random password",
+      "crm": "Customer Relationship Management",
+      "watch": "Luxury watch store"
+    }
+  },
+  "about": {
+    "main": {
+      "title": "Frontend Developer specializing in the creation of high-quality websites and innovative user interfaces.",
+      "text1": "I'm Matvey, a Front-End Developer with a deep-rooted passion for web development that began in high school. My journey started in 10th grade, where I first explored front-end development through HTML and CSS. By 11th grade, I had a solid grasp of these technologies and decided to pursue Computer Engineering at Kharkiv National University of Radio Electronics.",
+      "text2": "During my university studies, I delved into key programming principles, including OOP and algorithms, and took various courses that expanded my knowledge of front-end development. I became proficient in JavaScript and familiarized myself with Git and version control systems, ultimately choosing React JS for further specialization. Currently, I am enhancing my skills in TypeScript and Redux Toolkit.",
+      "text3": "I've gained hands-on experience through an internship at HARBOUR TECH ABI CRM LTD, working on a CRM system project tailored for the Spanish market. Additionally, I am employed part-time at Artic Web, where I contribute to the development of diverse web applications for various clients. With over 6 months of commercial experience and approximately 4 years of non-commercial work, I am committed to creating innovative and effective web solutions that meet both user needs and business objectives."
+    },
+    "experience": {
+      "title": "Work Experiences",
+      "date1": "February 17, 2024 - Present",
+      "date2": "July 13, 2024 - August 19, 2024",
+      "role": "My Role: {{role}}",
+      "role1": "At Artic Web, I played a key role in developing web applications of varying complexities, leveraging technologies such as React JS, Tailwind CSS, and Redux Toolkit. During this period, I not only honed my technical skills but also significantly improved my soft skills, including communication, problem-solving, and teamwork. Additionally, I solidified my expertise in React JS, confidently applying advanced concepts and best practices in real-world commercial projects.",
+      "role2": "At HARBOUR TECH ABI CRM LTD, I contributed to the development of a CRM system tailored for the Spanish market, utilizing JavaScript, HTML, and SCSS, with the front-end seamlessly integrated into WordPress. This project also marked my first experience with the Husky commit system, which proved to be highly beneficial for collaborative work. I developed two key pages, which are showcased in my portfolio. This role provided me with invaluable experience, particularly through mentorship and interaction with more experienced developers, significantly shaping my growth as a front-end developer."
+    },
+    "education": {
+      "title": "Education",
+      "course": "Course",
+      "nure": "Kharkiv National University of Radio Electronics",
+      "faculty": "Faculty of computer engineering and management, specialty - computer engineering",
+      "certificate": "Certificate",
+      "date1": "Sept. 2022 - Mar. 2024",
+      "date2": "Sept. 2023 - Oct. 2023",
+      "date3": "Nov. 2023 - Dec. 2023",
+      "date4": "Jan. 2023 - Nov. 2023",
+      "date5": "Feb. 2023 - Feb. 2023"
+    },
+    "skills": {
+      "title": "Skills"
+    },
+    "contacts": {
+      "title": "Contacts",
+      "text": "Feel free to reach out for projects, collaborations, or just to say hello! Currently seeking new opportunities."
+    }
+  }
+}

@@ -1,15 +1,16 @@
 import React, { FC } from "react";
-import { servicesData } from "../assets/constant/cards";
+
+import { useTranslatedServicesData } from "../assets/constant/cards";
+import { CardsTypes } from "../assets/constant/cards";
 import { Link } from "react-router-dom";
 
 const Card: FC = () => {
-  const [cards, setCards] = React.useState(servicesData);
+  const [cards, setCards] = React.useState<CardsTypes[]>([]);
+  const translatedData = useTranslatedServicesData();
 
   React.useEffect(() => {
-    if (!cards.length) {
-      setCards(servicesData);
-    }
-  }, []);
+    setCards(translatedData);
+  }, [translatedData]);
 
   return (
     <div className="slide delay02 flex flex-wrap justify-between max-w-[1200px] mx-auto">
