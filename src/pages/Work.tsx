@@ -1,18 +1,24 @@
+import { useTranslation } from "react-i18next";
 import { Link, useParams } from "react-router-dom";
 import { projectsComponents } from "../assets/constant/projects";
 
 const Work = () => {
   const { id } = useParams<{ id: string }>();
+  const { t } = useTranslation();
 
   const project = projectsComponents.find((project) => project.id === id);
 
   if (!project) {
     return (
       <h1 className="text-5xl font-semibold text-center my-36">
-        Project not found
+        {t("projects.projectNotFound")}
       </h1>
     );
   }
+
+  const descriptionTexts = t(`projects.${project.id}.descriptionText`, {
+    returnObjects: true,
+  }) as string[];
 
   return (
     <main>
@@ -23,17 +29,22 @@ const Work = () => {
               {project.title}
             </h1>
             <p className="mt-[60px] mb-[40px] text-black font-normal text-[24px]">
-              {project.text}
+              {t(`projects.${project.id}.text`)}
             </p>
-            <div className="text-xl text-semigrey font-light mb-10">
-              <p>{project.description}</p>
+            <div className="text-xl text-semigrey font-light mb-10 flex flex-col gap-5">
+              <h2>{t(`projects.${project.id}.description`)}</h2>
+              {Array.isArray(descriptionTexts) ? (
+                descriptionTexts.map((text, index) => <p key={index}>{text}</p>)
+              ) : (
+                <p>{t("projects.projectDescriptionError")}</p>
+              )}
             </div>
             <a
               className="font-normal text-black text-[22px] hover:underline"
               href={project.link}
               target="__blank"
             >
-              {project.title} Website
+              {project.title} {t("projects.website")}
             </a>
           </div>
         </div>
@@ -54,7 +65,7 @@ const Work = () => {
             to="/"
             className="text-[35px] font-semibold text-black hover:underline"
           >
-            Back to all project
+            {t("projects.backToAllProjects")}
           </Link>
         </div>
       </section>
