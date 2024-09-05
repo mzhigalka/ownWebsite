@@ -1,7 +1,8 @@
-import { FC } from "react";
+import React, { FC } from "react";
 import { Link, useLocation } from "react-router-dom";
 import LanguageSwitcher from "./LanguageSwitcher";
 import { useTranslation } from "react-i18next";
+import { motion } from "framer-motion";
 
 const Header: FC = () => {
   const { t } = useTranslation();
@@ -9,25 +10,33 @@ const Header: FC = () => {
   const isHomePage = location.pathname === "/";
 
   return (
-    <header className="py-8 sticky top-0 bg-white z-10 opacity-90 max-md:py-5">
+    <motion.header className="py-8 sticky top-0 bg-white z-10 opacity-100 max-md:py-5">
       <nav>
         <ul className="flex justify-between items-center">
-          <Link to="/">
-            <li className="text-black font-medium text-[22px] hover:underline hover:cursor-pointer max-md:text-lg">
+          <li>
+            <Link
+              to="/"
+              className="text-black font-medium text-[22px] hover:underline hover:cursor-pointer max-md:text-lg"
+            >
               {t("header.me")}
-            </li>
-          </Link>
-          <div className="flex gap-10 items-center">
-            <Link to={isHomePage ? "/about" : "/"}>
-              <li className="text-black font-medium text-[22px] hover:underline hover:cursor-pointer max-md:text-lg">
-                {isHomePage ? t("header.about") : t("header.work")}
-              </li>
             </Link>
-            <LanguageSwitcher />
+          </li>
+          <div className="flex gap-10 items-center">
+            <li>
+              <Link
+                to={isHomePage ? "/about" : "/"}
+                className="text-black font-medium text-[22px] hover:underline hover:cursor-pointer max-md:text-lg"
+              >
+                {isHomePage ? t("header.about") : t("header.work")}
+              </Link>
+            </li>
+            <li>
+              <LanguageSwitcher />
+            </li>
           </div>
         </ul>
       </nav>
-    </header>
+    </motion.header>
   );
 };
 
