@@ -2,6 +2,9 @@ import { FC } from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
+import { motion } from "framer-motion";
+import { mainTitleVariants } from "../assets/constant/animation";
+
 import Card from "./Card";
 import CopyMail from "./CopyMail";
 
@@ -11,11 +14,16 @@ const Main: FC = () => {
   return (
     <main>
       <div className="pt-32 pb-36 max-md:pb-20">
-        <h1 className="text-7xl font-semibold leading-[86px] text-black max-md:text-[35px] max-md:leading-[45px]">
+        <motion.h1
+          className="text-7xl font-semibold leading-[86px] text-black max-md:text-[35px] max-md:leading-[45px]"
+          initial="hidden"
+          animate="visible"
+          variants={mainTitleVariants}
+        >
           {t("main.title")}
           {/* Expert
           in HTML/CSS and Modern JavaScript. */}
-        </h1>
+        </motion.h1>
       </div>
       <Card />
       <div className="py-40 max-w-[760px] mx-auto ">

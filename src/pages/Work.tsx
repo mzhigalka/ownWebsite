@@ -25,13 +25,13 @@ const Work = () => {
       <section className="py-20 flex flex-col items-center">
         <div className="">
           <div className="max-w-[680px] mb-20">
-            <h1 className="text-6xl font-semibold text-black">
+            <h1 className="text-6xl font-semibold text-black max-md:text-4xl">
               {project.title}
             </h1>
-            <p className="mt-[60px] mb-[40px] text-black font-normal text-[24px]">
+            <p className="mt-[60px] mb-[40px] text-black font-normal text-[24px] max-md:text-xl max-md:font-medium">
               {t(`projects.${project.id}.text`)}
             </p>
-            <div className="text-xl text-semigrey font-light mb-10 flex flex-col gap-5">
+            <div className="text-xl text-semigrey font-light mb-10 flex flex-col gap-5 max-md:text-lg">
               <h2>{t(`projects.${project.id}.description`)}</h2>
               {Array.isArray(descriptionTexts) ? (
                 descriptionTexts.map((text, index) => <p key={index}>{text}</p>)
@@ -63,7 +63,7 @@ const Work = () => {
         <div className="text-center pt-20">
           <Link
             to="/"
-            className="text-[35px] font-semibold text-black hover:underline"
+            className="text-[35px] font-semibold text-black hover:underline max-md:text-2xl"
           >
             {t("projects.backToAllProjects")}
           </Link>

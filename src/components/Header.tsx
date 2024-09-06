@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import LanguageSwitcher from "./LanguageSwitcher";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
+import { headerVariants } from "../assets/constant/animation";
 
 const Header: FC = () => {
   const { t } = useTranslation();
@@ -10,7 +11,12 @@ const Header: FC = () => {
   const isHomePage = location.pathname === "/";
 
   return (
-    <motion.header className="py-8 sticky top-0 bg-white z-10 opacity-100 max-md:py-5">
+    <motion.header
+      className="py-8 sticky top-0 bg-white z-10 opacity-100 max-md:py-5"
+      initial="hidden"
+      animate="visible"
+      variants={headerVariants}
+    >
       <nav>
         <ul className="flex justify-between items-center">
           <li>
@@ -21,7 +27,7 @@ const Header: FC = () => {
               {t("header.me")}
             </Link>
           </li>
-          <div className="flex gap-10 items-center">
+          <div className="flex gap-10 items-center max-[423px]:gap-4">
             <li>
               <Link
                 to={isHomePage ? "/about" : "/"}
