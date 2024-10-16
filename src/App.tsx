@@ -10,7 +10,7 @@ const About = React.lazy(() => import("./pages/About"));
 const Work = React.lazy(() => import("./pages/Work"));
  
 function App() {
-  return (
+  return ( 
     <Router>
       <ScrollToTop />
       <div className="App">
