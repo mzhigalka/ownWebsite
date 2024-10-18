@@ -8,7 +8,7 @@ import Header from "./components/Header";
 const Main = React.lazy(() => import("./components/Main"));
 const About = React.lazy(() => import("./pages/About"));
 const Work = React.lazy(() => import("./pages/Work"));
- 
+  
 function App() {
   return ( 
     <Router>
