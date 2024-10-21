@@ -4,7 +4,7 @@ import React, { Suspense } from "react";
 import LoadingScreen from "./components/LoadingScreen";
 import ScrollToTop from "./components/ScrollToTop";
 import Header from "./components/Header";
-
+ 
 const Main = React.lazy(() => import("./components/Main"));
 const About = React.lazy(() => import("./pages/About"));
 const Work = React.lazy(() => import("./pages/Work"));
