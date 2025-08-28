@@ -1,150 +1,150 @@
 {
-  "header": {
-    "me": "Matvey Zhigalka",
-    "about": "About",
-    "work": "Work"
-  },
-  "main": {
-    "title": "Transforming Designs into Code. React & TypeScript Developer.",
-    "about": "I’m Matvey, a Front-End Developer specializing in React and TypeScript, based in Ukraine. With over 4 years of non-commercial experience and more than 6 months of commercial work, I excel at creating dynamic and engaging web experiences. My expertise includes crafting intuitive user interfaces, optimizing performance, and delivering high-quality code.",
-    "touch": "Get in touch",
-    "click": "(Click to copy)",
-    "mail": "Email Copied",
-    "more": "More about me",
-    "projects": {
-      "pizza": "Delivery of your favorite pizza",
-      "dlnure": "Travel booking platform",
-      "sneakers": "Sneakers for your style",
-      "airpods": "Landing page AirPods Max",
-      "password": "Platform for selecting a random password",
-      "crm": "Customer Relationship Management",
-      "watch": "Luxury watch store"
-    }
-  },
-  "about": {
+    "header": {
+        "me": "Matvey Zhigalka",
+        "about": "About",
+        "work": "Work"
+    },
     "main": {
-      "title": "Frontend Developer specializing in the creation of high-quality websites and innovative user interfaces.",
-      "text1": "I'm Matvey, a Front-End Developer with a deep-rooted passion for web development that began in high school. My journey started in 10th grade, where I first explored front-end development through HTML and CSS. By 11th grade, I had a solid grasp of these technologies and decided to pursue Computer Engineering at Kharkiv National University of Radio Electronics.",
-      "text2": "During my university studies, I delved into key programming principles, including OOP and algorithms, and took various courses that expanded my knowledge of front-end development. I became proficient in JavaScript and familiarized myself with Git and version control systems, ultimately choosing React JS for further specialization. Currently, I am enhancing my skills in TypeScript and Redux Toolkit.",
-      "text3": "I've gained hands-on experience through an internship at HARBOUR TECH ABI CRM LTD, working on a CRM system project tailored for the Spanish market. Additionally, I am employed part-time at Artic Web, where I contribute to the development of diverse web applications for various clients. With over 6 months of commercial experience and approximately 4 years of non-commercial work, I am committed to creating innovative and effective web solutions that meet both user needs and business objectives."
+        "title": "Transforming Designs into Code. Full-Stack Web Developer.",
+        "about": "I’m Matvey, a Front-End Developer specializing in React and TypeScript, based in Ukraine. With over 4 years of non-commercial experience and more than 6 months of commercial work, I excel at creating dynamic and engaging web experiences. My expertise includes crafting intuitive user interfaces, optimizing performance, and delivering high-quality code.",
+        "touch": "Get in touch",
+        "click": "(Click to copy)",
+        "mail": "Email Copied",
+        "more": "More about me",
+        "projects": {
+            "pizza": "Delivery of your favorite pizza",
+            "dlnure": "Travel booking platform",
+            "sneakers": "Sneakers for your style",
+            "airpods": "Landing page AirPods Max",
+            "password": "Platform for selecting a random password",
+            "crm": "Customer Relationship Management",
+            "watch": "Luxury watch store"
+        }
     },
-    "experience": {
-      "title": "Work Experiences",
-      "date1": "February 17, 2024 - Present",
-      "date2": "July 13, 2024 - August 19, 2024",
-      "date3": "August 26, 2024 - Present",
-      "role": "My Role: {{role}}",
-      "role1": "At Artic Web, I played a key role in developing web applications of varying complexities, leveraging technologies such as React JS, Tailwind CSS, and Redux Toolkit. During this period, I not only honed my technical skills but also significantly improved my soft skills, including communication, problem-solving, and teamwork. Additionally, I solidified my expertise in React JS, confidently applying advanced concepts and best practices in real-world commercial projects.",
-      "role2": "At HARBOUR TECH ABI CRM LTD, I contributed to the development of a CRM system tailored for the Spanish market, utilizing JavaScript, HTML, and SCSS, with the front-end seamlessly integrated into WordPress. This project also marked my first experience with the Husky commit system, which proved to be highly beneficial for collaborative work. I developed two key pages, which are showcased in my portfolio. This role provided me with invaluable experience, particularly through mentorship and interaction with more experienced developers, significantly shaping my growth as a front-end developer.",
-      "role3": "After completing my internship at HARBOUR TECH ABI CRM LTD, I was offered a position as a Frontend Developer. In this role, I have worked on various projects, including my most recent one, which focused on delivering exceptional construction services with an emphasis on quality, safety, and sustainability. This project, built with Next.js, incorporated libraries such as Mapbox, i18n, and SCSS. You can view the project here: Garcia Global. My work on this project has allowed me to apply advanced technical skills while contributing to the growth and success of our clients."
+    "about": {
+        "main": {
+            "title": "Frontend Developer specializing in the creation of high-quality websites and innovative user interfaces.",
+            "text1": "I'm Matvey, a Front-End Developer with a deep-rooted passion for web development that began in high school. My journey started in 10th grade, where I first explored front-end development through HTML and CSS. By 11th grade, I had a solid grasp of these technologies and decided to pursue Computer Engineering at Kharkiv National University of Radio Electronics.",
+            "text2": "During my university studies, I delved into key programming principles, including OOP and algorithms, and took various courses that expanded my knowledge of front-end development. I became proficient in JavaScript and familiarized myself with Git and version control systems, ultimately choosing React JS for further specialization. Currently, I am enhancing my skills in TypeScript and Redux Toolkit.",
+            "text3": "I've gained hands-on experience through an internship at HARBOUR TECH ABI CRM LTD, working on a CRM system project tailored for the Spanish market. Additionally, I am employed part-time at Artic Web, where I contribute to the development of diverse web applications for various clients. With over 6 months of commercial experience and approximately 4 years of non-commercial work, I am committed to creating innovative and effective web solutions that meet both user needs and business objectives."
+        },
+        "experience": {
+            "title": "Work Experiences",
+            "date1": "May 17, 2024 - Present",
+            "date2": "July 13, 2024 - August 19, 2024",
+            "date3": "August 26, 2024 - Present",
+            "role": "My Role: {{role}}",
+            "role1": "At Artic Web, I played a key role in developing web applications of varying complexities, leveraging technologies such as React JS, Tailwind CSS, and Redux Toolkit. During this period, I not only honed my technical skills but also significantly improved my soft skills, including communication, problem-solving, and teamwork. Additionally, I solidified my expertise in React JS, confidently applying advanced concepts and best practices in real-world commercial projects.",
+            "role2": "At HARBOUR TECH ABI CRM LTD, I contributed to the development of a CRM system tailored for the Spanish market, utilizing JavaScript, HTML, and SCSS, with the front-end seamlessly integrated into WordPress. This project also marked my first experience with the Husky commit system, which proved to be highly beneficial for collaborative work. I developed two key pages, which are showcased in my portfolio. This role provided me with invaluable experience, particularly through mentorship and interaction with more experienced developers, significantly shaping my growth as a front-end developer.",
+            "role3": "After completing my internship at HARBOUR TECH ABI CRM LTD, I was offered a position as a Frontend Developer. In this role, I have worked on various projects, including my most recent one, which focused on delivering exceptional construction services with an emphasis on quality, safety, and sustainability. This project, built with Next.js, incorporated libraries such as Mapbox, i18n, and SCSS. You can view the project here: Garcia Global. My work on this project has allowed me to apply advanced technical skills while contributing to the growth and success of our clients."
+        },
+        "education": {
+            "title": "Education",
+            "course": "Course",
+            "nure": "Kharkiv National University of Radio Electronics",
+            "faculty": "Faculty of computer engineering and management, specialty - computer engineering",
+            "certificate": "Certificate",
+            "date1": "Sept. 2022 - Mar. 2024",
+            "date2": "Sept. 2023 - Oct. 2023",
+            "date3": "Nov. 2023 - Dec. 2023",
+            "date4": "Jan. 2023 - Nov. 2023",
+            "date5": "Feb. 2023 - Feb. 2023"
+        },
+        "skills": {
+            "title": "Skills"
+        },
+        "contacts": {
+            "title": "Contacts",
+            "text": "Feel free to reach out for projects, collaborations, or just to say hello! Currently seeking new opportunities."
+        }
     },
-    "education": {
-      "title": "Education",
-      "course": "Course",
-      "nure": "Kharkiv National University of Radio Electronics",
-      "faculty": "Faculty of computer engineering and management, specialty - computer engineering",
-      "certificate": "Certificate",
-      "date1": "Sept. 2022 - Mar. 2024",
-      "date2": "Sept. 2023 - Oct. 2023",
-      "date3": "Nov. 2023 - Dec. 2023",
-      "date4": "Jan. 2023 - Nov. 2023",
-      "date5": "Feb. 2023 - Feb. 2023"
-    },
-    "skills": {
-      "title": "Skills"
-    },
-    "contacts": {
-      "title": "Contacts",
-      "text": "Feel free to reach out for projects, collaborations, or just to say hello! Currently seeking new opportunities."
+    "projects": {
+        "website": "Website",
+        "backToAllProjects": "Back to all project",
+        "projectNotFound": "Project not found",
+        "projectDescriptionError": "Project in development",
+        "pizza": {
+            "text": "Pizza Delivery is a convenient app that makes every order special. Delicious pizza is not just food, it is a small joy that brightens your day. Whether it is a cozy night at home, a party with friends, or an important event, our pizza is always the perfect choice.",
+            "description": "Technologies Used:",
+            "descriptionText": [
+                "ReactJS & TypeScript: The project is built using ReactJS for the front-end, coupled with TypeScript to ensure type safety and enhance code quality. React's component-based architecture allows for a dynamic and responsive user interface.",
+                "Redux Toolkit: State management is handled by Redux Toolkit, enabling efficient and predictable state updates throughout the application. This ensures that the user's experience remains smooth and consistent.",
+                "React Router: Navigation between different sections of the app is managed by React Router, allowing users to move seamlessly between pages without reloading the app.",
+                "Axios & Fetch: These libraries are utilized for handling API requests, enabling the app to communicate with the backend for fetching product data, submitting orders, and more.",
+                "CSS Modules & SCSS: Styling is implemented using CSS Modules combined with SCSS for modular and maintainable styles. This approach helps to avoid style conflicts and makes it easier to manage the application's look and feel.",
+                "React Content Loader: This library is used to display skeleton screens, enhancing the user experience by showing loading placeholders while the actual content is being fetched.",
+                "Code Splitting: To optimize performance, the application leverages code splitting, ensuring that only the necessary code is loaded when needed, which reduces the initial load time.",
+                "useWhyDidYouUpdate: A custom hook, useWhyDidYouUpdate, is used for debugging, helping to identify unnecessary re-renders and optimize component performance."
+            ]
+        },
+        "dlnure": {
+            "text": "DLNure Booking is a seamless platform that connects you to the best hotels for your perfect stay. Whether it is a luxurious getaway, a business trip, or a weekend escape, finding the ideal accommodation is effortless. With DLNure Booking, your next adventure is just a click away.",
+            "description": "Technologies Used:",
+            "descriptionText": [
+                "Next.js & TypeScript: The application is built with Next.js, a React framework that provides server-side rendering and static site generation capabilities. TypeScript is used for type safety and better developer experience.",
+                "Prisma: Prisma is used as an ORM for managing database interactions. It simplifies database operations and ensures type safety for database queries.",
+                "React Hook Form: This library is used for managing form state and validation, making it easier to handle complex forms in the application.",
+                "React-Select & React-Date-Range: These libraries enhance user experience with advanced select and date range components.",
+                "Leaflet & React-Leaflet: For interactive maps and location-based features, Leaflet and its React wrapper are used.",
+                "Next-Auth: This library handles authentication and authorization, providing a secure way to manage user sessions.",
+                "Tailwind CSS: Tailwind CSS is used for styling, offering a utility-first approach to building responsive and modern user interfaces.",
+                "React-Hot-Toast: This library provides a way to display toast notifications, improving user feedback and interaction.",
+                "Zustand: Zustand is used for state management, providing a simple and efficient way to handle global state."
+            ]
+        },
+        "airpods": {
+            "text": "AirPods Lending is your one-stop shop for the latest AirPods Pro. Whether you are upgrading your sound experience or trying out the latest tech, we have got the perfect pair for you. Discover seamless connectivity, top-tier sound quality, and a new way to enjoy your favorite audio.",
+            "description": "Technologies Used:",
+            "descriptionText": [
+                "HTML, CSS, JavaScript: The project is built using standard web technologies. HTML provides the structure, CSS handles the styling, and JavaScript manages interactivity.",
+                "BEM Methodology: The project uses the BEM (Block, Element, Modifier) methodology for CSS class naming, which enhances the readability and maintainability of the styles.",
+                "CSS Features: New CSS techniques such as the :has pseudo-class are utilized to manage styles dynamically based on the presence of child elements, allowing for advanced visual effects without additional JavaScript.",
+                "JavaScript: JavaScript is employed to handle interactive elements on the landing page, such as dynamic color selection and interactive buttons and links."
+            ]
+        },
+        "password": {
+            "text": "Random Password Generator is your reliable tool for creating secure and unique passwords. Whether you need protection for your accounts or extra security for your data, generate strong passwords with just a click. Keep your information safe with ease.",
+            "description": "Technologies Used:",
+            "descriptionText": [
+                "React: The project is built using React to create a dynamic and interactive user interface.",
+                "TypeScript: TypeScript is used to ensure type safety and improve the developer experience by catching errors early during development.",
+                "SCSS: SCSS is utilized for styling, providing a more manageable and scalable way to write CSS.",
+                "Framer Motion: This library is used for animations, enhancing the user experience with smooth transitions and effects.",
+                "React-Hot-Toast: This library is used for displaying toast notifications, providing feedback and alerts to users.",
+                "ESLint & Prettier: ESLint and Prettier are used for maintaining code quality and consistency, with a focus on best practices in TypeScript and React development."
+            ]
+        },
+        "sneakers": {
+            "text": "Sneakers Shop is your go-to destination for the latest in stylish sneakers. Whether you are looking for exclusive releases, timeless classics, or trendy designs, we have got you covered. Step up your sneaker game and find the perfect pair for any occasion.",
+            "description": "Technologies Used:",
+            "descriptionText": [
+                "React: The project is built with React, providing a dynamic and interactive user interface for browsing and purchasing sneakers.",
+                "TypeScript: TypeScript enhances code quality and developer experience by ensuring type safety and reducing bugs during development.",
+                "React Swiper: Swiper is utilized for creating responsive and touch-friendly carousels and sliders, enhancing the visual appeal of the sneaker listings.",
+                "React Context: React Context is employed for managing global state and passing data throughout the component tree without prop drilling.",
+                "SASS / CSS Modules: SASS and CSS Modules are used for styling, providing a modular and scalable approach to managing styles within the application.",
+                "Axios: Axios is used for making HTTP requests to interact with APIs and fetch data, such as sneaker listings and user information."
+            ]
+        },
+        "watch-store": {
+            "text": "Luxury Watch Store is your destination for timeless elegance and premium craftsmanship. Explore a curated selection of luxury watches that embody sophistication and style. Whether for a special occasion or everyday wear, find the perfect timepiece to elevate your look.",
+            "description": "Technologies Used:",
+            "descriptionText": [
+                "React: The application is built with React, providing a dynamic and responsive user interface for exploring and purchasing luxury watches.",
+                "TypeScript: TypeScript enhances code quality and development efficiency by adding type safety and reducing potential bugs.",
+                "Vite: Vite is used as the build tool and development server, offering fast build times and an optimized development experience.",
+                "Redux Toolkit: Redux Toolkit is employed for state management, simplifying state management tasks and providing powerful tools for handling application state.",
+                "React-Helmet-Async: This library is used for managing meta tags and dynamic document head updates, improving SEO and user experience.",
+                "React-Hot-Toast: For user notifications, React-Hot-Toast provides an easy way to display toast messages, enhancing user feedback.",
+                "React-Router-Dom: React Router is used for handling navigation and routing within the application, allowing seamless transitions between different views.",
+                "React-Slick & Slick-Carousel: These libraries are used for creating responsive carousels and sliders, showcasing watch collections in an engaging way.",
+                "Tailwind CSS: Tailwind CSS is utilized for styling, providing a utility-first approach to build modern and responsive designs."
+            ]
+        },
+        "abi-crm": {
+            "text": "Abi CRM System is a versatile CRM platform designed to streamline business operations and enhance customer relationships. With comprehensive tools and a user-friendly interface, managing client data and sales processes has never been easier.",
+            "description": "Technologies Used:",
+            "descriptionText": ""
+        }
     }
-  },
-  "projects": {
-    "website": "Website",
-    "backToAllProjects": "Back to all project",
-    "projectNotFound": "Project not found",
-    "projectDescriptionError": "Project in development",
-    "pizza": {
-      "text": "Pizza Delivery is a convenient app that makes every order special. Delicious pizza is not just food, it is a small joy that brightens your day. Whether it is a cozy night at home, a party with friends, or an important event, our pizza is always the perfect choice.",
-      "description": "Technologies Used:",
-      "descriptionText": [
-        "ReactJS & TypeScript: The project is built using ReactJS for the front-end, coupled with TypeScript to ensure type safety and enhance code quality. React's component-based architecture allows for a dynamic and responsive user interface.",
-        "Redux Toolkit: State management is handled by Redux Toolkit, enabling efficient and predictable state updates throughout the application. This ensures that the user's experience remains smooth and consistent.",
-        "React Router: Navigation between different sections of the app is managed by React Router, allowing users to move seamlessly between pages without reloading the app.",
-        "Axios & Fetch: These libraries are utilized for handling API requests, enabling the app to communicate with the backend for fetching product data, submitting orders, and more.",
-        "CSS Modules & SCSS: Styling is implemented using CSS Modules combined with SCSS for modular and maintainable styles. This approach helps to avoid style conflicts and makes it easier to manage the application's look and feel.",
-        "React Content Loader: This library is used to display skeleton screens, enhancing the user experience by showing loading placeholders while the actual content is being fetched.",
-        "Code Splitting: To optimize performance, the application leverages code splitting, ensuring that only the necessary code is loaded when needed, which reduces the initial load time.",
-        "useWhyDidYouUpdate: A custom hook, useWhyDidYouUpdate, is used for debugging, helping to identify unnecessary re-renders and optimize component performance."
-      ]
-    },
-    "dlnure": {
-      "text": "DLNure Booking is a seamless platform that connects you to the best hotels for your perfect stay. Whether it is a luxurious getaway, a business trip, or a weekend escape, finding the ideal accommodation is effortless. With DLNure Booking, your next adventure is just a click away.",
-      "description": "Technologies Used:",
-      "descriptionText": [
-        "Next.js & TypeScript: The application is built with Next.js, a React framework that provides server-side rendering and static site generation capabilities. TypeScript is used for type safety and better developer experience.",
-        "Prisma: Prisma is used as an ORM for managing database interactions. It simplifies database operations and ensures type safety for database queries.",
-        "React Hook Form: This library is used for managing form state and validation, making it easier to handle complex forms in the application.",
-        "React-Select & React-Date-Range: These libraries enhance user experience with advanced select and date range components.",
-        "Leaflet & React-Leaflet: For interactive maps and location-based features, Leaflet and its React wrapper are used.",
-        "Next-Auth: This library handles authentication and authorization, providing a secure way to manage user sessions.",
-        "Tailwind CSS: Tailwind CSS is used for styling, offering a utility-first approach to building responsive and modern user interfaces.",
-        "React-Hot-Toast: This library provides a way to display toast notifications, improving user feedback and interaction.",
-        "Zustand: Zustand is used for state management, providing a simple and efficient way to handle global state."
-      ]
-    },
-    "airpods": {
-      "text": "AirPods Lending is your one-stop shop for the latest AirPods Pro. Whether you are upgrading your sound experience or trying out the latest tech, we have got the perfect pair for you. Discover seamless connectivity, top-tier sound quality, and a new way to enjoy your favorite audio.",
-      "description": "Technologies Used:",
-      "descriptionText": [
-        "HTML, CSS, JavaScript: The project is built using standard web technologies. HTML provides the structure, CSS handles the styling, and JavaScript manages interactivity.",
-        "BEM Methodology: The project uses the BEM (Block, Element, Modifier) methodology for CSS class naming, which enhances the readability and maintainability of the styles.",
-        "CSS Features: New CSS techniques such as the :has pseudo-class are utilized to manage styles dynamically based on the presence of child elements, allowing for advanced visual effects without additional JavaScript.",
-        "JavaScript: JavaScript is employed to handle interactive elements on the landing page, such as dynamic color selection and interactive buttons and links."
-      ]
-    },
-    "password": {
-      "text": "Random Password Generator is your reliable tool for creating secure and unique passwords. Whether you need protection for your accounts or extra security for your data, generate strong passwords with just a click. Keep your information safe with ease.",
-      "description": "Technologies Used:",
-      "descriptionText": [
-        "React: The project is built using React to create a dynamic and interactive user interface.",
-        "TypeScript: TypeScript is used to ensure type safety and improve the developer experience by catching errors early during development.",
-        "SCSS: SCSS is utilized for styling, providing a more manageable and scalable way to write CSS.",
-        "Framer Motion: This library is used for animations, enhancing the user experience with smooth transitions and effects.",
-        "React-Hot-Toast: This library is used for displaying toast notifications, providing feedback and alerts to users.",
-        "ESLint & Prettier: ESLint and Prettier are used for maintaining code quality and consistency, with a focus on best practices in TypeScript and React development."
-      ]
-    },
-    "sneakers": {
-      "text": "Sneakers Shop is your go-to destination for the latest in stylish sneakers. Whether you are looking for exclusive releases, timeless classics, or trendy designs, we have got you covered. Step up your sneaker game and find the perfect pair for any occasion.",
-      "description": "Technologies Used:",
-      "descriptionText": [
-        "React: The project is built with React, providing a dynamic and interactive user interface for browsing and purchasing sneakers.",
-        "TypeScript: TypeScript enhances code quality and developer experience by ensuring type safety and reducing bugs during development.",
-        "React Swiper: Swiper is utilized for creating responsive and touch-friendly carousels and sliders, enhancing the visual appeal of the sneaker listings.",
-        "React Context: React Context is employed for managing global state and passing data throughout the component tree without prop drilling.",
-        "SASS / CSS Modules: SASS and CSS Modules are used for styling, providing a modular and scalable approach to managing styles within the application.",
-        "Axios: Axios is used for making HTTP requests to interact with APIs and fetch data, such as sneaker listings and user information."
-      ]
-    },
-    "watch-store": {
-      "text": "Luxury Watch Store is your destination for timeless elegance and premium craftsmanship. Explore a curated selection of luxury watches that embody sophistication and style. Whether for a special occasion or everyday wear, find the perfect timepiece to elevate your look.",
-      "description": "Technologies Used:",
-      "descriptionText": [
-        "React: The application is built with React, providing a dynamic and responsive user interface for exploring and purchasing luxury watches.",
-        "TypeScript: TypeScript enhances code quality and development efficiency by adding type safety and reducing potential bugs.",
-        "Vite: Vite is used as the build tool and development server, offering fast build times and an optimized development experience.",
-        "Redux Toolkit: Redux Toolkit is employed for state management, simplifying state management tasks and providing powerful tools for handling application state.",
-        "React-Helmet-Async: This library is used for managing meta tags and dynamic document head updates, improving SEO and user experience.",
-        "React-Hot-Toast: For user notifications, React-Hot-Toast provides an easy way to display toast messages, enhancing user feedback.",
-        "React-Router-Dom: React Router is used for handling navigation and routing within the application, allowing seamless transitions between different views.",
-        "React-Slick & Slick-Carousel: These libraries are used for creating responsive carousels and sliders, showcasing watch collections in an engaging way.",
-        "Tailwind CSS: Tailwind CSS is utilized for styling, providing a utility-first approach to build modern and responsive designs."
-      ]
-    },
-    "abi-crm": {
-      "text": "Abi CRM System is a versatile CRM platform designed to streamline business operations and enhance customer relationships. With comprehensive tools and a user-friendly interface, managing client data and sales processes has never been easier.",
-      "description": "Technologies Used:",
-      "descriptionText": ""
-    }
-  }
 }
