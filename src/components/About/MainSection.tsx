@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { TFunction } from 'i18next';
-import myPhoto from '../../assets/images/my-photo1.jpg';
+import myPhoto from '../../assets/images/my-photo.svg';
 
 interface MainSectionProps {
     t: TFunction;
