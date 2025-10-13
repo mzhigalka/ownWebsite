@@ -1,12 +1,12 @@
 import { useTranslation } from 'react-i18next';
 
 import cardImage1 from '../images/1.1.jpg';
-import cardImage2 from '../images/2.2.jpg';
+import cardImage3 from '../images/3.3.jpg';
 import cardImage4 from '../images/4.4.jpg';
-// import cardImage5 from '../images/5.5.jpg';
+import cardImage5 from '../images/5.5.jpg';
 import cardImage6 from '../images/6.6.jpg';
-import cardImage7 from '../images/9.9.jpg';
-// import cardImage8 from '../images/10.10.jpg';
+import cardImage7 from '../images/7.7.jpg';
+import cardImage8 from '../images/8.8.jpg';
 
 export interface CardsTypes {
     id: number;
@@ -22,52 +22,54 @@ export const useTranslatedServicesData = (): CardsTypes[] => {
     return [
         {
             id: 1,
-            image: cardImage1,
-            title: 'Pizza delivery',
-            text: t('main.projects.pizza'),
-            link: '/work/pizza',
+            image: cardImage5,
+            title: 'WorkRadar.EU',
+            text: t('main.projects.workradar'),
+            link: '/work/workradar',
         },
         {
             id: 2,
-            image: cardImage2,
-            title: 'DlNure booking',
-            text: t('main.projects.dlnure'),
-            link: '/work/dlnure',
+            image: cardImage1,
+            title: 'British Hills',
+            text: t('main.projects.british-hills'),
+            link: '/work/british-hills',
         },
         {
             id: 3,
-            image: cardImage4,
-            title: 'Sneakers',
-            text: t('main.projects.sneakers'),
-            link: '/work/sneakers',
+            image: cardImage3,
+            title: 'FC Livyi Bereh',
+            text: t('main.projects.fc-lb'),
+            link: '/work/fc-livyi-bereh',
         },
-        // {
-        //     id: 4,
-        //     image: cardImage5,
-        //     title: 'AirPods lending',
-        //     text: t('main.projects.airpods'),
-        //     link: '/work/airpods',
-        // },
+        {
+            id: 4,
+            image: cardImage4,
+            title: 'Vadaleos',
+            text: t('main.projects.sneakers'),
+            link: '/work/vadaleos',
+        },
+
         {
             id: 5,
             image: cardImage6,
-            title: 'Random password',
+            title: 'BWT Group Logistics',
             text: t('main.projects.password'),
-            link: '/work/password',
+            link: '/work/bwt-group-logistics',
         },
-        // {
-        //     id: 6,
-        //     image: cardImage8,
-        //     title: 'Abi CRM System',
-        //     text: t('main.projects.crm'),
-        //     link: '/work/abi-crm',
-        // },
+
         {
             id: 7,
             image: cardImage7,
-            title: 'Watch Store',
+            title: 'StreamOut',
             text: t('main.projects.watch'),
-            link: '/work/watch-store',
+            link: '/work/streamout',
+        },
+        {
+            id: 8,
+            image: cardImage8,
+            title: 'DAIWO.me',
+            text: t('main.projects.daiwo'),
+            link: '/work/daiwo',
         },
     ];
 };
