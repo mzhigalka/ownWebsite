@@ -12,13 +12,13 @@
         "mail": "Email Copied",
         "more": "More about me",
         "projects": {
-            "pizza": "Delivery of your favorite pizza",
-            "dlnure": "Travel booking platform",
-            "sneakers": "Sneakers for your style",
-            "airpods": "Landing page AirPods Max",
-            "password": "Platform for selecting a random password",
-            "crm": "Customer Relationship Management",
-            "watch": "Luxury watch store"
+            "workradar": "European Job Search & Recruitment Platform",
+            "british-hills": "English Language Learning School",
+            "fc-lb": "Football Club Merchandise Store",
+            "vadaleos": "Real Estate & Property Development Company",
+            "bwt": "Vehicle Shipping & Transport Platform",
+            "streamout": "Video Sharing & Creator Monetization Platform",
+            "daiwo": "Hybrid Investment & Crypto Platform"
         }
     },
     "about": {
@@ -141,7 +141,7 @@
                 "Tailwind CSS: Tailwind CSS is utilized for styling, providing a utility-first approach to build modern and responsive designs."
             ]
         },
-        "abi-crm": {
+        "daiwo": {
             "text": "Abi CRM System is a versatile CRM platform designed to streamline business operations and enhance customer relationships. With comprehensive tools and a user-friendly interface, managing client data and sales processes has never been easier.",
             "description": "Technologies Used:",
             "descriptionText": ""

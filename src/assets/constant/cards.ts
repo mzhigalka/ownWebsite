@@ -45,7 +45,7 @@ export const useTranslatedServicesData = (): CardsTypes[] => {
             id: 4,
             image: cardImage4,
             title: 'Vadaleos',
-            text: t('main.projects.sneakers'),
+            text: t('main.projects.vadaleos'),
             link: '/work/vadaleos',
         },
 
@@ -53,7 +53,7 @@ export const useTranslatedServicesData = (): CardsTypes[] => {
             id: 5,
             image: cardImage6,
             title: 'BWT Group Logistics',
-            text: t('main.projects.password'),
+            text: t('main.projects.bwt'),
             link: '/work/bwt-group-logistics',
         },
 
@@ -61,7 +61,7 @@ export const useTranslatedServicesData = (): CardsTypes[] => {
             id: 7,
             image: cardImage7,
             title: 'StreamOut',
-            text: t('main.projects.watch'),
+            text: t('main.projects.streamout'),
             link: '/work/streamout',
         },
         {
