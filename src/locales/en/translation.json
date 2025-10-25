@@ -142,9 +142,21 @@
             ]
         },
         "daiwo": {
-            "text": "Abi CRM System is a versatile CRM platform designed to streamline business operations and enhance customer relationships. With comprehensive tools and a user-friendly interface, managing client data and sales processes has never been easier.",
+            "text": "DAIWO is an advanced web platform centered around cryptocurrency and digital investments. It provides an immersive 3D experience, interactive trading features, and informative sections such as the About and Investment pages. The project combines modern UI design with blockchain integration to deliver a professional and engaging user experience.",
+            "myRole": "My role in the DAIWO project involved optimizing performance and refactoring existing components to improve efficiency and maintainability. I was responsible for redesigning several core pages, including the About and Buy/Sell, enhancing their layout and adding smooth animations for a more dynamic feel. Additionally, I implemented the full logic for the Investment System page — including staking mechanics, percentage calculations, wallet connection integration, and interactive state management with accordions and user actions. Overall, my focus was on improving usability, interactivity, and code performance across the platform.",
             "description": "Technologies Used:",
-            "descriptionText": ""
+            "descriptionText": [
+                "ReactJS & TypeScript: The core of the application is built with ReactJS for building dynamic interfaces and TypeScript for ensuring type safety and maintainability.",
+                "Vite: Used as the development and build tool, providing fast bundling and optimized production builds.",
+                "TailwindCSS & SCSS: Styling is implemented with TailwindCSS for utility-first design and SCSS for custom components, ensuring flexibility and modern aesthetics.",
+                "Three.js & React Three Fiber: Enables interactive 3D visuals, enhancing user engagement with immersive WebGL graphics.",
+                "@tanstack/react-query: Handles data fetching and caching efficiently, ensuring smooth updates and real-time data synchronization.",
+                "Framer Motion & Animate.css: Used to create smooth, visually appealing animations that improve user experience and add depth to the design.",
+                "Axios: Used for API communication, enabling secure and efficient interaction with external data sources.",
+                "Wagmi, Ethers.js & Web3: Integrated to support blockchain functionality, wallet connections, and crypto transactions.",
+                "EmailJS & React Hot Toast: Used for handling contact forms and user notifications with modern and responsive feedback.",
+                "Optimization & Code Splitting: Performance improvements were achieved by refactoring components, lazy-loading heavy elements, and compressing assets for faster loading."
+            ]
         }
     }
 }

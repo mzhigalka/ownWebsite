@@ -31,6 +31,10 @@ const Work = () => {
                         <p className="mt-[60px] mb-[40px] text-black font-normal text-[24px] max-md:text-xl max-md:font-medium">
                             {t(`projects.${project.id}.text`)}
                         </p>
+                        <p className="mt-[60px] mb-[40px] text-black font-normal text-[24px] max-md:text-xl max-md:font-medium">
+                            {t(`projects.${project.id}.myRole`)}
+                        </p>
+
                         <div className="text-xl text-semigrey font-light mb-10 flex flex-col gap-5 max-md:text-lg">
                             <h2>{t(`projects.${project.id}.description`)}</h2>
                             {Array.isArray(descriptionTexts) ? (
@@ -39,6 +43,7 @@ const Work = () => {
                                 <p>{t('projects.projectDescriptionError')}</p>
                             )}
                         </div>
+
                         <a
                             className="font-normal text-black text-[22px] hover:underline"
                             href={project.link}
