@@ -141,6 +141,23 @@
                 "Tailwind CSS: Tailwind CSS is utilized for styling, providing a utility-first approach to build modern and responsive designs."
             ]
         },
+        "bwt-group-logistics": {
+            "text": "BWT Group Logistics is a modern multi-page website designed to present a logistics and transportation company with a focus on professionalism and user convenience. The platform combines clear structure, responsive design, and smooth animations to create a dynamic and visually engaging experience for visitors.",
+            "myRole": "I was fully responsible for the development of the BWT Group Logistics website from scratch — starting with layout creation, interface design, and implementation of all functionality. The entire UI/UX design was developed by me without pre-existing mockups, based solely on provided content and page structure. I implemented a complex multi-step lead form with dynamic validation and integrated it with EmailJS to send submissions directly via email for lead processing. I also worked on responsive layouts, SEO optimization, and added animated transitions using Framer Motion to make the site more interactive and professional.",
+            "description": "Technologies Used:",
+            "descriptionText": [
+                "ReactJS & TypeScript: Core technologies used to build a scalable and maintainable front-end with a component-based architecture.",
+                "Vite: Utilized as the development environment and build tool for fast and optimized project bundling.",
+                "TailwindCSS: Applied for building responsive layouts quickly and maintaining a clean, consistent design system.",
+                "Framer Motion: Used to implement animations and page transitions for a more engaging and modern user experience.",
+                "React Router DOM: Handles navigation across multiple pages, ensuring smooth routing and a seamless browsing flow.",
+                "React Slick & Slick Carousel: Implemented for sliders and carousels, enhancing the visual presentation of services and testimonials.",
+                "EmailJS: Integrated for sending form data directly to email, enabling efficient lead capture and communication.",
+                "React Helmet Async: Used for SEO optimization and dynamic metadata management.",
+                "React Hot Toast: Provides real-time visual feedback for form submissions and user actions.",
+                "React GTM Module: Integrated Google Tag Manager for analytics and tracking user behavior to improve marketing insights."
+            ]
+        },
         "daiwo": {
             "text": "DAIWO is an advanced web platform centered around cryptocurrency and digital investments. It provides an immersive 3D experience, interactive trading features, and informative sections such as the About and Investment pages. The project combines modern UI design with blockchain integration to deliver a professional and engaging user experience.",
             "myRole": "My role in the DAIWO project involved optimizing performance and refactoring existing components to improve efficiency and maintainability. I was responsible for redesigning several core pages, including the About and Buy/Sell, enhancing their layout and adding smooth animations for a more dynamic feel. Additionally, I implemented the full logic for the Investment System page — including staking mechanics, percentage calculations, wallet connection integration, and interactive state management with accordions and user actions. Overall, my focus was on improving usability, interactivity, and code performance across the platform.",
