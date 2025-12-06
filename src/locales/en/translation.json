@@ -141,6 +141,23 @@
                 "Tailwind CSS: Tailwind CSS is utilized for styling, providing a utility-first approach to build modern and responsive designs."
             ]
         },
+        "vadaleos": {
+            "text": "Vadaleos is a professional real estate platform based in Prague, Czech Republic, designed for a company specializing in turnkey apartment sales. The website showcases high-quality renovated properties ready for immediate move-in, allowing clients to explore different design options and interior finishes according to their preferences. The platform provides an intuitive multi-page experience, optimized performance, and a modern visual style that reflects the brand’s premium positioning.",
+            "myRole": "I was fully responsible for developing the front-end architecture of Vadaleos from the ground up — from initial setup to final deployment. My work included designing a scalable structure for the React application, implementing multilingual support with i18next for Czech and English languages, and ensuring strong SEO optimization and performance across all pages. I integrated complex form logic using EmailJS for lead submissions, built custom sliders with React Slick, and implemented smooth animations with Framer Motion for an engaging user experience. Additionally, I focused on seamless collaboration with the senior back-end developer to ensure stable API integration and overall system reliability. The result was a fast, polished, and production-ready website that met all client expectations and was successfully delivered on time.",
+            "description": "Technologies Used:",
+            "descriptionText": [
+                "ReactJS & TypeScript: The foundation of the front-end, providing a modular, maintainable, and performant architecture.",
+                "Vite: Used as the development and build environment for fast bundling and optimized deployment.",
+                "TailwindCSS: Employed for efficient and responsive styling, ensuring a clean and consistent UI across devices.",
+                "Framer Motion: Added smooth transitions and micro-animations to elevate the overall user experience.",
+                "i18next & React i18next: Implemented full multilingual support for Czech and English, including dynamic language detection and content management.",
+                "EmailJS: Integrated for form submission handling, allowing leads and client inquiries to be sent directly via email.",
+                "React Slick & Slick Carousel: Used for property sliders and interactive image galleries.",
+                "React Helmet Async: Ensured proper SEO configuration and dynamic metadata across all pages.",
+                "React Hot Toast: Added user-friendly notifications and feedback for form interactions and system actions.",
+                "React Router DOM: Enabled smooth navigation between multiple pages, maintaining a consistent and fast user experience."
+            ]
+        },
         "bwt-group-logistics": {
             "text": "BWT Group Logistics is a modern multi-page website designed to present a logistics and transportation company with a focus on professionalism and user convenience. The platform combines clear structure, responsive design, and smooth animations to create a dynamic and visually engaging experience for visitors.",
             "myRole": "I was fully responsible for the development of the BWT Group Logistics website from scratch — starting with layout creation, interface design, and implementation of all functionality. The entire UI/UX design was developed by me without pre-existing mockups, based solely on provided content and page structure. I implemented a complex multi-step lead form with dynamic validation and integrated it with EmailJS to send submissions directly via email for lead processing. I also worked on responsive layouts, SEO optimization, and added animated transitions using Framer Motion to make the site more interactive and professional.",
