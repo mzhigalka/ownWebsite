@@ -11,6 +11,41 @@ export const headerVariants = {
     },
 };
 
+export const scrollHeaderVariants = {
+    visible: {
+        y: 0,
+        opacity: 1,
+        transition: {
+            duration: 0.8,
+            ease: [0.22, 1, 0.36, 1],
+        },
+    },
+    hidden: {
+        y: -100,
+        opacity: 0,
+        transition: {
+            duration: 0.7,
+            ease: [0.22, 1, 0.36, 1],
+        },
+    },
+};
+
+export const navItemVariants = {
+    initial: {
+        opacity: 0,
+        y: -100,
+    },
+    animate: (index: number) => ({
+        opacity: 1,
+        y: 0,
+        transition: {
+            delay: index * 0.2,
+            duration: 0.8,
+            ease: [0.22, 1, 0.36, 1],
+        },
+    }),
+};
+
 // h1
 export const mainTitleVariants = {
     hidden: { y: 100, opacity: 0 },
