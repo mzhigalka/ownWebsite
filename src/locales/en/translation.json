@@ -58,6 +58,9 @@
             "text": "Feel free to reach out for projects, collaborations, or just to say hello! Currently seeking new opportunities."
         }
     },
+    "work": {
+        "notLink": "Project in development"
+    },
     "projects": {
         "website": "Website",
         "backToAllProjects": "Back to all project",
@@ -173,6 +176,28 @@
                 "React Helmet Async: Used for SEO optimization and dynamic metadata management.",
                 "React Hot Toast: Provides real-time visual feedback for form submissions and user actions.",
                 "React GTM Module: Integrated Google Tag Manager for analytics and tracking user behavior to improve marketing insights."
+            ]
+        },
+        "streamout": {
+            "text": "StreamOut is a full-featured video streaming and monetization platform designed for content creators and viewers. The platform allows creators to publish videos, receive financial support from viewers, and manage earnings through integrated payment systems. StreamOut is built as a scalable multi-role system with a strong focus on security, financial transparency, and flexible monetization logic.",
+            "myRole": "I joined the StreamOut project primarily as a back-end developer and later worked as a full-stack engineer, responsible for designing and implementing core platform logic. I developed the complete authentication and authorization flow, including email/password authentication and Google OAuth integration. I built the back-end architecture from scratch, created database models, and implemented full user profile management — including profile editing, password changes, notifications, settings, and account deletion.\n\nAfter completing the authentication and profile flows, I designed and implemented the financial architecture of the platform. This included building a flexible commission system for creators and viewers, supporting multiple commission models (platform-based and referral-based), and implementing creator profit calculations. I integrated Stripe Connect (Express) for payments and payouts, handling platform fees, Stripe fees, multi-role transactions, and webhook-based transaction status updates. I also worked on PayPal payment logic without user redirection, implementing internal balance tracking and commission calculations.\n\nI designed the complete payout flow for creators, including monthly withdrawals, platform commission handling, and centralized admin balance management. Additionally, I implemented referral tracking logic using URL parameters, flexible commission configuration via environment variables, and ensured all financial operations were securely stored and reflected in user profiles. The project is still under development, and my work focused on delivering a solid, scalable foundation for authentication, payments, and monetization.",
+            "description": "Technologies Used:",
+            "descriptionText": [
+                "ReactJS & TypeScript: Used on the front-end to build a scalable, strongly typed, and maintainable user interface.",
+                "Redux Toolkit: Implemented for predictable global state management across authentication, user profiles, and payments.",
+                "Vite: Served as the build and development tool for fast iteration and optimized production builds.",
+                "TailwindCSS & Headless UI: Used to create accessible, responsive, and clean UI components.",
+                "Framer Motion: Added smooth animations and transitions to enhance user experience.",
+                "i18next & React i18next: Implemented multilingual support with language detection and dynamic content loading.",
+                "React Hook Form & Yup: Used to build complex forms with validation for authentication, settings, and profile management.",
+                "Node.js & Express: Formed the foundation of the back-end API, handling authentication, payments, and business logic.",
+                "MongoDB & Mongoose: Used for data modeling and storage of users, transactions, payouts, and platform settings.",
+                "JWT & Google OAuth: Implemented secure authentication using JSON Web Tokens and Google OAuth provider.",
+                "Stripe Connect (Express): Integrated for payments, platform fees, creator payouts, commission handling, and webhook-based transaction tracking.",
+                "PayPal SDK: Implemented direct payment and payout logic without redirection, including commission and balance calculations.",
+                "AWS S3 & Cloudinary: Used for secure media storage and asset handling.",
+                "Node Cron: Implemented scheduled tasks for payouts, balance updates, and platform maintenance logic.",
+                "EmailJS, Nodemailer & Mailgun: Used for transactional emails, notifications, and system messages."
             ]
         },
         "daiwo": {

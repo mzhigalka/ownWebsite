@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { Link, useParams } from 'react-router-dom';
 import { projectsComponents } from '../assets/constant/projects';
+import Hint from '../components/Hint';
 
 const Work = () => {
     const { t } = useTranslation();
@@ -44,13 +45,25 @@ const Work = () => {
                             )}
                         </div>
 
-                        <a
-                            className="font-normal text-black text-[22px] hover:underline"
-                            href={project.link}
-                            target="__blank"
-                        >
-                            {project.title} {t('projects.website')}
-                        </a>
+                        {project.link ? (
+                            <a
+                                target="__blank"
+                                href={project.link}
+                                className={'font-normal text-black text-[22px] hover:underline'}
+                            >
+                                {project.title} {t('projects.website')}
+                            </a>
+                        ) : (
+                            <Hint text={t('work.notLink')}>
+                                <a
+                                    target="__blank"
+                                    href={project.link}
+                                    className={`font-normal text-black cursor-not-allowed text-[22px]`}
+                                >
+                                    {project.title} {t('projects.website')}
+                                </a>
+                            </Hint>
+                        )}
                     </div>
                 </div>
                 <div className="flex flex-col gap-5">

@@ -86,7 +86,6 @@ export const projectsComponents = [
         id: 'streamout',
         title: 'StreamOut - Live Streaming Platform',
         images: [streamout1, streamout2, streamout3, streamout4, streamout5],
-        // link: 'https://react-bwt-shop-v2.vercel.app/',
     },
     {
         id: 'daiwo',
