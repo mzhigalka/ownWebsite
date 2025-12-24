@@ -11,7 +11,12 @@ export const workExperiences = [
     },
     {
         id: 1,
-        position: 'React Developer',
+        position: 'Frontend Developer',
+        company: 'Arctic Web',
+    },
+    {
+        id: 4,
+        position: 'Full-stack Developer',
         company: 'Arctic Web',
     },
 ];
