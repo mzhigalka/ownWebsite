@@ -27,12 +27,13 @@ export const useTranslatedServicesData = (): CardsTypes[] => {
             text: t('main.projects.workradar'),
             link: '/work/workradar',
         },
+
         {
             id: 2,
-            image: cardImage1,
-            title: 'British Hills',
-            text: t('main.projects.british-hills'),
-            link: '/work/british-hills',
+            image: cardImage7,
+            title: 'StreamOut',
+            text: t('main.projects.streamout'),
+            link: '/work/streamout',
         },
         {
             id: 3,
@@ -56,13 +57,12 @@ export const useTranslatedServicesData = (): CardsTypes[] => {
             text: t('main.projects.bwt'),
             link: '/work/bwt-group-logistics',
         },
-
         {
             id: 7,
-            image: cardImage7,
-            title: 'StreamOut',
-            text: t('main.projects.streamout'),
-            link: '/work/streamout',
+            image: cardImage1,
+            title: 'British Hills',
+            text: t('main.projects.british-hills'),
+            link: '/work/british-hills',
         },
         {
             id: 8,
