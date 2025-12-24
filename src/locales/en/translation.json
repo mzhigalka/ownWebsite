@@ -144,6 +144,25 @@
                 "Tailwind CSS: Tailwind CSS is utilized for styling, providing a utility-first approach to build modern and responsive designs."
             ]
         },
+        "fc-livyi-bereh": {
+            "text": "FC LB is an official fan shop web application for the Kyiv-based football club Levyi Bereg. The platform is designed to sell club merchandise, accessories, and apparel while also serving as an informational hub for fans. The application provides a modern shopping experience with a clean interface, responsive design, and seamless navigation across all sections.",
+            "myRole": "I was the lead and sole front-end developer on the FC LB fan shop project, fully responsible for implementing the entire client-side of the application. My work included translating the provided design into a functional React application, building all user-facing pages as well as the admin panel interface, and ensuring consistent styling and responsive behavior across devices. I collaborated closely with the back-end developer to integrate product data, categories, and database-driven content. My responsibilities covered layout implementation, state management, form handling, validation, and overall UI/UX polish, with a strong focus on adaptability, maintainability, and performance.",
+            "description": "Technologies Used:",
+            "descriptionText": [
+                "ReactJS & TypeScript: Used to build a scalable and maintainable front-end architecture with strong type safety.",
+                "Vite: Served as the development and build tool, ensuring fast reloads and optimized production builds.",
+                "Redux Toolkit: Implemented for global state management, including user sessions, products, and admin data.",
+                "React Router DOM: Used to manage application routing and navigation between public pages and the admin panel.",
+                "TailwindCSS: Applied for responsive and consistent styling across all layouts and components.",
+                "React Hook Form & Zod: Used to build and validate complex forms for authentication, product management, and admin workflows.",
+                "Axios: Integrated for communication with the back-end API and data fetching.",
+                "Google OAuth & JWT: Used for user authentication and session handling on the client side.",
+                "React Slick & Slick Carousel: Implemented for product sliders and promotional sections.",
+                "React Content Loader: Added skeleton loaders to improve perceived performance during data loading.",
+                "React Helmet Async: Used for SEO optimization and dynamic metadata management.",
+                "React Hot Toast: Provided real-time feedback for user actions such as form submissions and errors."
+            ]
+        },
         "vadaleos": {
             "text": "Vadaleos is a professional real estate platform based in Prague, Czech Republic, designed for a company specializing in turnkey apartment sales. The website showcases high-quality renovated properties ready for immediate move-in, allowing clients to explore different design options and interior finishes according to their preferences. The platform provides an intuitive multi-page experience, optimized performance, and a modern visual style that reflects the brand’s premium positioning.",
             "myRole": "I was fully responsible for developing the front-end architecture of Vadaleos from the ground up — from initial setup to final deployment. My work included designing a scalable structure for the React application, implementing multilingual support with i18next for Czech and English languages, and ensuring strong SEO optimization and performance across all pages. I integrated complex form logic using EmailJS for lead submissions, built custom sliders with React Slick, and implemented smooth animations with Framer Motion for an engaging user experience. Additionally, I focused on seamless collaboration with the senior back-end developer to ensure stable API integration and overall system reliability. The result was a fast, polished, and production-ready website that met all client expectations and was successfully delivered on time.",
