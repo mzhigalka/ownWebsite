@@ -21,8 +21,6 @@ const Main: FC = () => {
                     variants={mainTitleVariants}
                 >
                     {t('main.title')}
-                    {/* Expert
-          in HTML/CSS and Modern JavaScript. */}
                 </motion.h1>
             </div>
 
