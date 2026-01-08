@@ -4,6 +4,16 @@
         "about": "About",
         "work": "Work"
     },
+    "meta": {
+        "homeTitle": "Matvey Zhigalka — Front-end & Full-Stack Developer",
+        "homeDescription": "Portfolio of Matvey Zhigalka: selected projects, skills, and experience in React, TypeScript, and full-stack development.",
+        "aboutTitle": "About — Matvey Zhigalka",
+        "aboutDescription": "Career story, skills, and experience in front-end and full-stack development.",
+        "projectTitle": "{{project}} — Case Study",
+        "projectDescription": "Overview, role, and technologies behind {{project}}.",
+        "projectNotFoundTitle": "Project not found",
+        "projectNotFoundDescription": "The requested project could not be found."
+    },
     "main": {
         "title": "Transforming Designs into Code. Full-Stack Web Developer.",
         "about": "I’m Matvey, a Front-end & Full-Stack Developer with a strong focus on React, TypeScript, and modern web architectures. I build complex, scalable, and performance-oriented applications with a strong emphasis on user experience, clean architecture, and business logic. My background includes both frontend-heavy and full-stack projects, ranging from highly interactive UI platforms to large-scale systems with maps, payments, SEO, and role-based logic.",

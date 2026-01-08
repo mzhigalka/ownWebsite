@@ -9,6 +9,7 @@ import EducationSection from '../components/About/EducationSection';
 import ContactsSection from '../components/About/ContactsSection';
 import SkillsSection from '../components/About/SkillsSection';
 import MainSection from '../components/About/MainSection';
+import Seo from '../components/Seo';
 
 const SectionWrapper: FC<{ children: React.ReactNode }> = ({ children }) => {
     const [ref, inView] = useInView({
@@ -33,6 +34,7 @@ const About: FC = () => {
 
     return (
         <>
+            <Seo title={t('meta.aboutTitle')} description={t('meta.aboutDescription')} />
             <SectionWrapper>
                 <MainSection t={t} />
             </SectionWrapper>

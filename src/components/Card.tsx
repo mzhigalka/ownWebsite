@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { useInView } from 'react-intersection-observer';
 import { cardVariants } from '../assets/constant/animation';
 import { CardsTypes, useTranslatedServicesData } from '../assets/constant/cards';
+import { trackEvent } from '../analytics/gtm';
 
 const CardItem: FC<{ item: CardsTypes }> = ({ item }) => {
     const [ref, inView] = useInView({
@@ -19,7 +20,15 @@ const CardItem: FC<{ item: CardsTypes }> = ({ item }) => {
             animate={inView ? 'visible' : 'hidden'}
             variants={cardVariants}
         >
-            <Link to={item.link}>
+            <Link
+                to={item.link}
+                onClick={() =>
+                    trackEvent('project_card_click', {
+                        project: item.id,
+                        project_title: item.title,
+                    })
+                }
+            >
                 <div className="work-item__image h-[640px] overflow-hidden rounded-3xl">
                     <img
                         className="block w-full h-full object-cover"

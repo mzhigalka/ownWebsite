@@ -7,12 +7,14 @@ import { mainTitleVariants } from '../assets/constant/animation';
 
 import Card from './Card';
 import CopyMail from './CopyMail';
+import Seo from './Seo';
 
 const Main: FC = () => {
     const { t } = useTranslation();
 
     return (
         <main>
+            <Seo title={t('meta.homeTitle')} description={t('meta.homeDescription')} />
             <div className="pt-32 pb-36 max-md:pb-20">
                 <motion.h1
                     className="text-7xl font-semibold leading-[86px] text-black max-md:text-[35px] max-md:leading-[45px]"

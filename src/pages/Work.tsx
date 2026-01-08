@@ -2,6 +2,8 @@ import { useTranslation } from 'react-i18next';
 import { Link, useParams } from 'react-router-dom';
 import { projectsComponents } from '../assets/constant/projects';
 import Hint from '../components/Hint';
+import Seo from '../components/Seo';
+import { trackEvent } from '../analytics/gtm';
 
 const Work = () => {
     const { t } = useTranslation();
@@ -11,9 +13,15 @@ const Work = () => {
 
     if (!project) {
         return (
-            <h1 className="text-5xl font-semibold text-center my-36">
-                {t('projects.projectNotFound')}
-            </h1>
+            <>
+                <Seo
+                    title={t('meta.projectNotFoundTitle')}
+                    description={t('meta.projectNotFoundDescription')}
+                />
+                <h1 className="text-5xl font-semibold text-center my-36">
+                    {t('projects.projectNotFound')}
+                </h1>
+            </>
         );
     }
 
@@ -23,6 +31,10 @@ const Work = () => {
 
     return (
         <main>
+            <Seo
+                title={t('meta.projectTitle', { project: project.title })}
+                description={t('meta.projectDescription', { project: project.title })}
+            />
             <section className="py-20 flex flex-col items-center">
                 <div className="">
                     <div className="max-w-[680px] mb-20">
@@ -50,6 +62,13 @@ const Work = () => {
                                 target="__blank"
                                 href={project.link}
                                 className={'font-normal text-black text-[22px] hover:underline'}
+                                onClick={() =>
+                                    trackEvent('project_link_click', {
+                                        project: project.id,
+                                        project_title: project.title,
+                                        link: project.link,
+                                    })
+                                }
                             >
                                 {project.title} {t('projects.website')}
                             </a>
