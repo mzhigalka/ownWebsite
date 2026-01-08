@@ -28,7 +28,7 @@ function App() {
 
                 <footer className="px-[16px] ">
                     <div className="text-[14px] text-footer max-w-[760px] mx-auto py-[40px]">
-                        © Matvey Zhigalka {new Date().getFullYear()}
+                        © Matvey Zhigalka 2022 — {new Date().getFullYear()}
                     </div>
                 </footer>
             </div>
