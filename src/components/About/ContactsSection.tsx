@@ -23,6 +23,7 @@ const ContactsSection: FC<ContactsSectionProps> = ({ t }) => {
             className="hover:underline"
             href="https://t.me/mzglk"
             target="_blank"
+            rel="noreferrer"
           >
             Telegram
           </a>
@@ -30,6 +31,7 @@ const ContactsSection: FC<ContactsSectionProps> = ({ t }) => {
             className="hover:underline"
             href="https://www.linkedin.com/in/mzhigalka/"
             target="_blank"
+            rel="noreferrer"
           >
             Linkedin
           </a>
@@ -37,6 +39,7 @@ const ContactsSection: FC<ContactsSectionProps> = ({ t }) => {
             className="hover:underline"
             href="https://github.com/mzhigalka"
             target="_blank"
+            rel="noreferrer"
           >
             GitHub
           </a>
@@ -44,6 +47,7 @@ const ContactsSection: FC<ContactsSectionProps> = ({ t }) => {
             className="hover:underline"
             href="https://gitlab.com/mzhigalka"
             target="_blank"
+            rel="noreferrer"
           >
             GitLab
           </a>
