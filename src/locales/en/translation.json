@@ -51,16 +51,28 @@
             "title": "Education",
             "course": "Course",
             "nure": "Kharkiv National University of Radio Electronics",
+            "bachelor": "Bachelor's degree",
+            "master": "Master's degree",
+            "masterField": "Computer Science, specialization - systems programming",
             "faculty": "Faculty of computer engineering and management, specialty - computer engineering",
             "certificate": "Certificate",
             "date1": "Sept. 2022 - Mar. 2024",
             "date2": "Sept. 2023 - Oct. 2023",
             "date3": "Nov. 2023 - Dec. 2023",
             "date4": "Jan. 2023 - Nov. 2023",
-            "date5": "Feb. 2023 - Feb. 2023"
+            "date5": "Feb. 2023 - Feb. 2023",
+            "date6": "Oct. 2026",
+            "date7": "Apr. 2024"
         },
         "skills": {
-            "title": "Skills"
+            "title": "Skills",
+            "frontend": "Frontend",
+            "stateForms": "State & Forms",
+            "backend": "Backend",
+            "databases": "Databases",
+            "aiLlm": "AI & LLM",
+            "cloudDevops": "Cloud & DevOps",
+            "integrationsTools": "Integrations & Tools"
         },
         "contacts": {
             "title": "Contacts",
